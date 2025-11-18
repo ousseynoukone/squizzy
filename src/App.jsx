@@ -1,13 +1,12 @@
 import './App.css'
 
 import Layout from './components/layout/layout.jsx'
-
-import Connexion from './components/connexion/connexion.jsx'
+import ThemeSelection from './components/theme-selection/theme-selection.jsx'
 
 function App() {
   return (
     <Layout>
-      <Connexion />
+      <ThemeSelection />
     </Layout>
   )
 }
