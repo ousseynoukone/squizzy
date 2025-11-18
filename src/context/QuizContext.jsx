@@ -3,13 +3,13 @@ import { createContext, useState, useEffect } from "react";
 export const QuizContext = createContext();
 
 export function QuizProvider({ children }) {
-  const [score, setScore] = useState(0);
+    const [score, setScore] = useState(0);
   const [history, setHistory] = useState(() => {
     const localHistory = localStorage.getItem("quizHistory");
     return localHistory ? JSON.parse(localHistory) : [];
   });
   const [questions, setQuestions] = useState([]);
-  const [pseudo, setPseudo] = useState(() => {
+    const [pseudo, setPseudo] = useState(() => {
     return localStorage.getItem("quizPseudo") || "";
   });
   const [selectedTheme, setSelectedTheme] = useState(null);
@@ -27,6 +27,13 @@ export function QuizProvider({ children }) {
   useEffect(() => {
     localStorage.setItem("quizHistory", JSON.stringify(history));
   }, [history]);
+
+  // Calcul du score et enregistrement de l'historique lorsque le quiz est terminé
+  useEffect(() => {
+    if (quizFinished) {
+      calculateScore(userAnswers);
+    }
+  }, [quizFinished, userAnswers]);
 
   const calculateScore = (answers) => {
     let newScore = 0;
@@ -55,9 +62,8 @@ export function QuizProvider({ children }) {
         ...prevAnswers,
         { questionId, selectedOption },
       ];
-      // Si c'est la dernière question, calculer le score
+      // Si c'est la dernière question, marquer le quiz comme terminé
       if (newAnswers.length === questions.length) {
-        calculateScore(newAnswers);
         setQuizFinished(true);
       }
       return newAnswers;
