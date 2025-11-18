@@ -1,12 +1,23 @@
+import { useState } from 'react'
 import './App.css'
 
 import Layout from './components/layout/layout.jsx'
 import DifficultySelect from './components/difficulty-select/difficulty-select.jsx'
+import QuizGame from './components/quiz-game/quiz-game.jsx'
 
 function App() {
+  const [selectedDifficulty, setSelectedDifficulty] = useState(null)
+
   return (
     <Layout>
-      <DifficultySelect />
+      {selectedDifficulty ? (
+        <QuizGame
+          difficulty={selectedDifficulty}
+          onRestart={() => setSelectedDifficulty(null)}
+        />
+      ) : (
+        <DifficultySelect onClick={setSelectedDifficulty} />
+      )}
     </Layout>
   )
 }
