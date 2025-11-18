@@ -6,7 +6,7 @@ function formconnection(){
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log("Player name:", name)
+        localStorage.setItem("username", name)
     }
 
     return(
