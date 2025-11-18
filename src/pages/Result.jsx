@@ -28,7 +28,11 @@ const Result = () => {
   const scorePercentage = Math.round((correctAnswersCount / totalQuestions) * 100);
 
   const handleReplay = () => {
+    // resetQuiz(); // Ne pas réinitialiser le pseudo
     // On ne réinitialise que les variables du quiz, pas le pseudo
+    // La fonction resetQuiz dans QuizContext a été modifiée pour ne pas réinitialiser le pseudo
+    // On peut donc la laisser, mais on va s'assurer qu'elle ne réinitialise que les variables du quiz.
+    // Vérification dans QuizContext.jsx : setPseudo("") a été commenté. C'est bon.
     resetQuiz();
     navigate("/");
   };

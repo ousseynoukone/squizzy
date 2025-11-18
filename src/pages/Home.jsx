@@ -27,6 +27,7 @@ const ThemeCard = ({ theme, onSelect }) => {
     border: "none",
     padding: "10px 20px",
     borderRadius: "5px",
+    cursor: "pointer",
     marginTop: "15px",
   };
 
