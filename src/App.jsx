@@ -1,12 +1,12 @@
 import './App.css'
 
 import Layout from './components/layout/layout.jsx'
-import ThemeSelection from './components/theme-selection/theme-selection.jsx'
+import DifficultySelect from './components/difficulty-select/difficulty-select.jsx'
 
 function App() {
   return (
     <Layout>
-      <ThemeSelection />
+      <DifficultySelect />
     </Layout>
   )
 }
