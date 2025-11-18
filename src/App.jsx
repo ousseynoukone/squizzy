@@ -2,7 +2,7 @@ import './App.css'
 
 import Layout from './components/layout/layout.jsx'
 
-import Connexion from './components/connexion/connexion.jsx'
+import Connexion from './components/connection/connection.jsx'
 
 function App() {
   return (
