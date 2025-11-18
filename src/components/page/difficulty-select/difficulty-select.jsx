@@ -1,4 +1,4 @@
-import NavBar from '../layout/navbar.jsx'
+import NavBar from '../../layout/navbar.jsx'
 
 const difficulties = [
   {

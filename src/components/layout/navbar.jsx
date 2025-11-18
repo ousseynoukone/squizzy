@@ -1,4 +1,6 @@
 
+import { getUsername } from '../../utils/utils.js';
+
 export default function NavBar({ isPPShown = true }) {
   return (
     <header className="w-full py-6">
@@ -14,7 +16,7 @@ export default function NavBar({ isPPShown = true }) {
         
     {isPPShown && (
         <div className="flex items-center gap-3 rounded-full border border-white/60 bg-white px-4 py-1.5 shadow-sm">
-          <span className="text-sm font-medium text-slate-700">Léa</span>
+          <span className="text-sm font-medium text-slate-700">{getUsername()}</span>
           <img
             src="https://i.pravatar.cc/40?img=47"
             alt="Avatar"

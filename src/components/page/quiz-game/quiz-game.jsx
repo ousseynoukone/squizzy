@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import NavBar from '../layout/navbar.jsx'
+import NavBar from '../../layout/navbar.jsx'
 
 const answers = [
   { id: 'A', label: 'Sydney' },
@@ -35,7 +35,7 @@ function AnswerCard({ answer, isSelected, onSelect }) {
   )
 }
 
-export default function QuizGame({ difficulty, onRestart }) {
+export default function QuizGame({ difficulty, onFinish }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [timeLeft, setTimeLeft] = useState(30)
 
@@ -101,14 +101,13 @@ export default function QuizGame({ difficulty, onRestart }) {
           </div>
         </section>
 
-        <div className="flex flex-wrap gap-4">
-          <button
-            type="button"
-            className="rounded-full border border-transparent bg-[#2563EB] px-8 py-3 text-sm font-semibold text-white shadow-lg shadow-[#2563EB40] transition hover:bg-[#1d4ed8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB60]"
-          >
-            Valider
-          </button>
-        </div>
+        <button
+          type="button"
+          className="rounded-full border border-transparent bg-[#2563EB] px-10 py-3 text-sm font-semibold text-white shadow-lg shadow-[#2563EB40] transition hover:bg-[#1d4ed8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB60]"
+          onClick={onFinish}
+        >
+          Valider
+        </button>
       </main>
     </div>
   )
