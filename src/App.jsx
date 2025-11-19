@@ -5,6 +5,7 @@ import Layout from './components/layout/layout.jsx'
 import DifficultySelect from './components/page/difficulty-select/difficulty-select.jsx'
 import QuizGame from './components/page/quiz-game/quiz-game.jsx'
 import QuizResult from './components/page/quiz-result/quiz-result.jsx'
+import Profile from './components/page/profile/profile.jsx'
 
 const mockResults = {
   totalQuestions: 10,
@@ -48,9 +49,19 @@ function App() {
     setStep('difficulty')
   }
 
+  const handleProfileClick = () => {
+    setStep('profile')
+  }
+
+  const handleBackFromProfile = () => {
+    setStep('difficulty')
+  }
+
   return (
     <Layout>
-      {step === 'difficulty' && <DifficultySelect onClick={handleDifficultySelect} />}
+      {step === 'difficulty' && (
+        <DifficultySelect onClick={handleDifficultySelect} onProfileClick={handleProfileClick} />
+      )}
       {step === 'quiz' && (
         <QuizGame
           difficulty={selectedDifficulty}
@@ -62,6 +73,9 @@ function App() {
           data={mockResults}
           onReplay={handleReplay}
         />
+      )}
+      {step === 'profile' && (
+        <Profile onBack={handleBackFromProfile} />
       )}
     </Layout>
   )

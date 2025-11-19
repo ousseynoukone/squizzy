@@ -27,10 +27,10 @@ const difficulties = [
   },
 ]
 
-export default function DifficultySelect({ onClick }) {
+export default function DifficultySelect({ onClick, onProfileClick }) {
   return (
     <div className="min-h-screen bg-[#F4F6FB] pb-16">
-      <NavBar isPPShown={false} />
+      <NavBar isPPShown={true} onProfileClick={onProfileClick} />
       <main className="mx-auto flex w-full max-w-4xl flex-col items-center gap-8 px-4 text-center">
         <div className="flex flex-col gap-3">
             <h1 className="text-4xl font-semibold text-slate-900">Capitales du monde</h1>
