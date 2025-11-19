@@ -43,3 +43,17 @@ export function userExists() {
   return !!username
 }
 
+// Supprimer un quiz de l'historique par ID
+export function deleteQuizHistory(quizId) {
+  const history = getQuizHistory()
+  const filtered = history.filter(quiz => quiz.id !== quizId)
+  localStorage.setItem('quizHistory', JSON.stringify(filtered))
+  return filtered
+}
+
+// Supprimer tout l'historique
+export function clearAllQuizHistory() {
+  localStorage.setItem('quizHistory', JSON.stringify([]))
+  return []
+}
+

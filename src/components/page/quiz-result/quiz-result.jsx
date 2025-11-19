@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import NavBar from '../../layout/navbar.jsx'
 import { saveQuizHistory } from '../../../utils/storage.js'
 import { getEvaluation } from '../../../utils/evaluation.js'
 import { getQuizByThemeId } from '../../../data/quizzes.js'
@@ -29,7 +28,6 @@ export default function QuizResult({ data, theme, onReplay, onNewTheme }) {
 
   return (
     <div className="min-h-screen bg-[#F4F6FB] pb-16">
-      <NavBar isPPShown={true} />
       <main className="mx-auto flex w-full max-w-5xl flex-col items-center gap-10 px-4 text-center">
         <section className="w-full rounded-[32px] border border-[#E6ECF5] bg-white px-8 py-10 shadow-[0_18px_40px_rgba(15,23,42,0.08)]">
           <p className="text-sm uppercase tracking-[0.4em] text-[#A0AEC0]">Résultats</p>

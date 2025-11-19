@@ -1,4 +1,3 @@
-import NavBar from '../../layout/navbar.jsx'
 import { getQuizByThemeId } from '../../../data/quizzes.js'
 import { generateQuestionList } from '../../../data/questions.js'
 
@@ -26,7 +25,13 @@ const questionDistribution = [
   { facile: 2, moyen: 3, difficile: 5 },
 ]
 
-export default function DifficultySelect({ theme, onDifficultySelect, onProfileClick }) {
+const questionChronos = {
+  Facile: 30,
+  Moyen: 25,
+  Difficile: 20,
+}
+
+export default function DifficultySelect({ theme, onDifficultySelect }) {
   if (!theme) return null
 
   const quiz = getQuizByThemeId(theme.id)
@@ -45,9 +50,17 @@ export default function DifficultySelect({ theme, onDifficultySelect, onProfileC
     return `${mins}:${secs.toString().padStart(2, '0')}`
   }
 
+  const calculateTotalTime = (difficultyIndex) => {
+    const distribution = questionDistribution[difficultyIndex]
+    const totalTime = 
+      distribution.facile * questionChronos.Facile +
+      distribution.moyen * questionChronos.Moyen +
+      distribution.difficile * questionChronos.Difficile
+    return totalTime
+  }
+
   return (
     <div className="min-h-screen bg-[#F4F6FB] pb-16">
-      <NavBar isPPShown={true} onProfileClick={onProfileClick} />
       <main className="mx-auto flex w-full max-w-4xl flex-col items-center gap-8 px-4 text-center">
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-semibold text-slate-900">{theme.titre}</h1>
@@ -64,6 +77,7 @@ export default function DifficultySelect({ theme, onDifficultySelect, onProfileC
           {quiz.difficulteQuizz.map((difficulty, index) => {
             const style = difficultyStyles[index]
             const distribution = questionDistribution[index]
+            const totalTime = calculateTotalTime(index)
             return (
               <button
                 key={index}
@@ -74,7 +88,7 @@ export default function DifficultySelect({ theme, onDifficultySelect, onProfileC
                 <span className={`text-lg font-semibold ${style.textColor}`}>{difficulty.titre}</span>
                 <div className="mt-3 space-y-1 text-sm text-slate-600">
                   <p>{difficulty.nbrPoints} points possibles</p>
-                  <p>Temps: {formatTime(difficulty.chrono)}</p>
+                  <p>Temps: {formatTime(totalTime)}</p>
                   <p className="text-xs text-slate-500">
                     {distribution.facile}F / {distribution.moyen}M / {distribution.difficile}D
                   </p>

@@ -1,5 +1,4 @@
 import { useEffect, useState, useMemo } from 'react'
-import NavBar from '../../layout/navbar.jsx'
 
 function AnswerCard({ answer, answerId, isSelected, onSelect }) {
   const baseClasses =
@@ -149,15 +148,18 @@ export default function QuizGame({ questions, theme, difficultyIndex, onComplete
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
   }, [timeLeft])
 
-  if (!currentQuestion) return null
+  const shuffledAnswers = useMemo(() => {
+    if (!currentQuestion) return []
+    return [...currentQuestion.listeReponses].sort(() => Math.random() - 0.5)
+  }, [currentQuestionIndex, currentQuestion])
 
-  const shuffledAnswers = [...currentQuestion.listeReponses].sort(() => Math.random() - 0.5)
-  const leftAnswers = shuffledAnswers.slice(0, 2)
-  const rightAnswers = shuffledAnswers.slice(2, 4)
+  const leftAnswers = useMemo(() => shuffledAnswers.slice(0, 2), [shuffledAnswers])
+  const rightAnswers = useMemo(() => shuffledAnswers.slice(2, 4), [shuffledAnswers])
+
+  if (!currentQuestion) return null
 
   return (
     <div className="min-h-screen bg-[#F4F6FB] pb-16">
-      <NavBar isPPShown={false} />
       <main className="mx-auto flex w-full max-w-5xl flex-col items-center gap-10 px-4 text-center">
         <div className="flex flex-col gap-3">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#94A3B8]">

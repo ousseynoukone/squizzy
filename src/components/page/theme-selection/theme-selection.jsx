@@ -1,4 +1,3 @@
-import NavBar from "../../layout/navbar.jsx"
 import { themes } from "../../../data/themes.js"
 
 const accentColors = [
@@ -9,10 +8,9 @@ const accentColors = [
   "from-[#FFEAB7] to-[#FFEAB7]",
 ]
 
-export default function ThemeSelection({ onThemeSelect, onProfileClick }) {
+export default function ThemeSelection({ onThemeSelect }) {
   return (
     <div className="pb-16">
-      <NavBar isPPShown={true} onProfileClick={onProfileClick} />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4">
         <div className="flex flex-col items-center text-center gap-3">
           <h1 className="text-3xl font-semibold text-slate-900">

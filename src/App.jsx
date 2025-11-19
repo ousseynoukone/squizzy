@@ -9,6 +9,8 @@ import QuizGame from './components/page/quiz-game/quiz-game.jsx'
 import QuizResult from './components/page/quiz-result/quiz-result.jsx'
 import Profile from './components/page/profile/profile.jsx'
 import { userExists } from './utils/storage.js'
+import { generateQuestionList } from './data/questions.js'
+import NavBar from './components/layout/navbar.jsx'
 
 function App() {
   const [step, setStep] = useState('connection')
@@ -64,39 +66,62 @@ function App() {
     setStep('theme')
   }
 
+  const handleRetakeFromProfile = (theme, difficultyIndex) => {
+    setSelectedTheme(theme)
+    setSelectedDifficulty(difficultyIndex)
+    const questions = generateQuestionList(theme.id, difficultyIndex)
+    setQuizQuestions(questions)
+    setStep('quiz')
+  }
+
   return (
     <Layout>
       {step === 'connection' && (
         <Connexion onComplete={handleConnectionComplete} />
       )}
       {step === 'theme' && (
+        <div> 
+        <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
         <ThemeSelection onThemeSelect={handleThemeSelect} onProfileClick={handleProfileClick} />
+        </div>
       )}
       {step === 'difficulty' && selectedTheme && (
-        <DifficultySelect
-          theme={selectedTheme}
-          onDifficultySelect={handleDifficultySelect}
-          onProfileClick={handleProfileClick}
-        />
+        <div> 
+          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+          <DifficultySelect
+            theme={selectedTheme}
+            onDifficultySelect={handleDifficultySelect}
+          />
+
+        </div>
       )}
       {step === 'quiz' && quizQuestions && selectedTheme && selectedDifficulty !== null && (
-        <QuizGame
+               <div> 
+          <NavBar isPPShown={false} />
+
+       <QuizGame
           questions={quizQuestions}
           theme={selectedTheme}
           difficultyIndex={selectedDifficulty}
           onComplete={handleQuizComplete}
         />
+
+          </div>
       )}
       {step === 'result' && quizResults && (
-        <QuizResult
-          data={quizResults}
-          theme={selectedTheme}
-          onReplay={handleReplay}
-          onNewTheme={handleNewTheme}
-        />
+        <div> 
+          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+          <QuizResult
+            data={quizResults}
+            theme={selectedTheme}
+            onReplay={handleReplay}
+            onNewTheme={handleNewTheme}
+            onProfileClick={handleProfileClick} 
+          />
+        </div>
       )}
       {step === 'profile' && (
-        <Profile onBack={handleBackFromProfile} />
+        <Profile onBack={handleBackFromProfile} onRetake={handleRetakeFromProfile} />
       )}
     </Layout>
   )
