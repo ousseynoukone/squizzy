@@ -1,5 +1,3 @@
-// Utilitaires pour la gestion du stockage localStorage
-
 // Sauvegarder l'historique d'un quiz
 export function saveQuizHistory(quizData) {
   const history = getQuizHistory()
