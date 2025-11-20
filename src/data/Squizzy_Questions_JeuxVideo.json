@@ -1,6 +1,6 @@
 [
   {
-    "ID_Question": 1,
+    "id": 1,
     "Intitule": "Quelle entreprise est propriétaire de Super Mario ? ",
     "Reponses": [
       "Nintendo",
@@ -12,7 +12,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 2,
+    "id": 2,
     "Intitule": "Comment s'appelle l'Hérison Bleu mascotte de Sega ? ",
     "Reponses": [
       "Sonic",
@@ -24,7 +24,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 3,
+    "id": 3,
     "Intitule": "Quelle est l'évolution de Pikachu dans les jeux Pokémons ?",
     "Reponses": [
       "Raichu",
@@ -36,7 +36,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 4,
+    "id": 4,
     "Intitule": "De quelle jeu est originaire Donkey Kong ?",
     "Reponses": [
       "Donkey Kong",
@@ -48,7 +48,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 5,
+    "id": 5,
     "Intitule": "La marque Playstation appartient à :",
     "Reponses": [
       "Sony",
@@ -60,7 +60,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 6,
+    "id": 6,
     "Intitule": "Quelle est le nom de la plus grande boutique en ligne de jeux vidéos sur PC ?",
     "Reponses": [
       "Steam",
@@ -72,7 +72,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 7,
+    "id": 7,
     "Intitule": "Qui est le protagoniste de The Legend of Zelda ?",
     "Reponses": [
       "Link",
@@ -84,7 +84,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 8,
+    "id": 8,
     "Intitule": "Comment s'appelle le frère de Mario ?",
     "Reponses": [
       "Luigi",
@@ -96,7 +96,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 9,
+    "id": 9,
     "Intitule": "Quelle est la console la plus vendu au monde ? (2025)",
     "Reponses": [
       "Playstation 2",
@@ -108,7 +108,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 10,
+    "id": 10,
     "Intitule": "Quel est le jeu le plus vendu au monde ? (2025)",
     "Reponses": [
       "Minecraft",
@@ -120,7 +120,7 @@
     "Difficulte": "Facile"
   },
   {
-    "ID_Question": 11,
+    "id": 11,
     "Intitule": "Qui l'antagoniste de Final Fantasy 7 ?",
     "Reponses": [
       "Sephiroth",
@@ -132,7 +132,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 12,
+    "id": 12,
     "Intitule": "En 2024, EA a perdu le droit de FIFA, comment se nomme leur jeux de football maintenant ? (2025)",
     "Reponses": [
       "EA Sports FC",
@@ -144,7 +144,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 13,
+    "id": 13,
     "Intitule": "Avant la sorti de Pokemon Ecarlate et Violet, combien il y avait de Pokemons dans le Pokedex ?",
     "Reponses": [
       "905",
@@ -156,7 +156,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 14,
+    "id": 14,
     "Intitule": "Quel est le surnom du protagoniste principal de Halo ?",
     "Reponses": [
       "Master Chief",
@@ -168,7 +168,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 15,
+    "id": 15,
     "Intitule": "Quel est la célèbre liscence de jeux d'horreur de Capcom",
     "Reponses": [
       "Resident Evil",
@@ -180,7 +180,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 16,
+    "id": 16,
     "Intitule": "Quel jeu à été nommé Game of The Year durant les Game Awards 2022 ?",
     "Reponses": [
       "Elden Ring",
@@ -192,7 +192,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 17,
+    "id": 17,
     "Intitule": "Dans lequel de ces jeux il n'est pas possible de jouer Link de The Legend of Zelda de manière officiel ?",
     "Reponses": [
       "Fortnite",
@@ -204,7 +204,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 18,
+    "id": 18,
     "Intitule": "Dans la liscence Metroid, comment est comunément appellé la combinaison qui permet à Samus de resister aux fortes températures ?",
     "Reponses": [
       "Varia Suit",
@@ -216,7 +216,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 19,
+    "id": 19,
     "Intitule": "Comment s'appelle l'assistant du Professeur Layton ?",
     "Reponses": [
       "Luke",
@@ -228,7 +228,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 20,
+    "id": 20,
     "Intitule": "Quel est le Monster emblématique de Monster Hunter ?",
     "Reponses": [
       "Rathalos",
@@ -240,7 +240,7 @@
     "Difficulte": "Moyen"
   },
   {
-    "ID_Question": 21,
+    "id": 21,
     "Intitule": "De quelle jeu Nier est la suite/sequel ?",
     "Reponses": [
       "Drakengard",
@@ -252,7 +252,7 @@
     "Difficulte": "Difficile"
   },
   {
-    "ID_Question": 22,
+    "id": 22,
     "Intitule": "Qui est le Roi Lich dans l'univers de Warcraft ?",
     "Reponses": [
       "Arthas Menethil",
@@ -264,7 +264,7 @@
     "Difficulte": "Difficile"
   },
   {
-    "ID_Question": 23,
+    "id": 23,
     "Intitule": "Comment s'appelle l'épée de Shulk dans Xenoblade Chronicles ?",
     "Reponses": [
       "Monado",
@@ -276,7 +276,7 @@
     "Difficulte": "Difficile"
   },
   {
-    "ID_Question": 24,
+    "id": 24,
     "Intitule": "Dans la conception de jeu vidéo, quel est le terme pour définir les zones de colision entre des objets ?",
     "Reponses": [
       "Hit Box",
@@ -288,7 +288,7 @@
     "Difficulte": "Difficile"
   },
   {
-    "ID_Question": 25,
+    "id": 25,
     "Intitule": "Qui est Dracula dans Castelvania Lament of Innocence ?",
     "Reponses": [
       "Mathias Cronqvist",

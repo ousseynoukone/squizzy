@@ -1,7 +1,7 @@
 export class Question {
-  constructor(id, intitule, Reponses, BonneReponse, Difficulte, Theme) {
+  constructor(id, Intitule, Reponses, BonneReponse, Difficulte, Theme) {
     this.id = id;
-    this.intitule = intitule;
+    this.intitule = Intitule;
     this.Reponses = Reponses;
     this.BonneReponse = BonneReponse;
     this.Difficulte = Difficulte;

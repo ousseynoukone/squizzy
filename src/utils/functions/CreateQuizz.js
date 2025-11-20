@@ -19,7 +19,7 @@ export default function CreateQuizz(nbQuestions) {
     let ReponsesListe = Questionaire[idQ]["Reponses"];
 
     questionTest = new Question(
-      Questionaire[idQ]["ID_Question"],
+      Questionaire[idQ]["id"],
       Questionaire[idQ]["Intitule"],
       shuffle(ReponsesListe),
       Questionaire[idQ]["Bonne_Reponse"],
