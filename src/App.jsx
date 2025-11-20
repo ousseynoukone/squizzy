@@ -5,6 +5,7 @@ import Layout from './components/layout/layout.jsx'
 import DifficultySelect from './components/page/difficulty-select/difficulty-select.jsx'
 import QuizGame from './components/page/quiz-game/quiz-game.jsx'
 import QuizResult from './components/page/quiz-result/quiz-result.jsx'
+import CreateQuizz from './utils/functions/CreateQuizz.js'
 
 const mockResults = {
   totalQuestions: 10,
@@ -50,6 +51,9 @@ function App() {
 
   return (
     <Layout>
+
+    <button onClick={CreateQuizz(10)}>Clique</button>
+
       {step === 'difficulty' && <DifficultySelect onClick={handleDifficultySelect} />}
       {step === 'quiz' && (
         <QuizGame
