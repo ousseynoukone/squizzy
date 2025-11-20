@@ -1,6 +1,7 @@
 import { useState } from "react"
 import button from "../../UI/button.jsx"
 import { saveUserData } from "../../../utils/storage.js"
+import { useNavigate } from "react-router-dom"
 
 const avatars = [
   "https://i.pravatar.cc/150?img=1",
@@ -13,15 +14,16 @@ const avatars = [
   "https://i.pravatar.cc/150?img=68",
 ]
 
-function FormConnection({ onComplete }) {
+function FormConnection() {
   const [name, setName] = useState("")
   const [selectedAvatar, setSelectedAvatar] = useState(avatars[0])
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault()
     if (name.trim()) {
       saveUserData(name, selectedAvatar)
-      if (onComplete) onComplete()
+      navigate('/theme');
     }
   }
 
@@ -65,7 +67,7 @@ function FormConnection({ onComplete }) {
         </div>
       </div>
 
-      {button({ type: "submit", children: "Valider" })}
+      {button({ type: "submit", children: "Valider"  })}
     </form>
   )
 }

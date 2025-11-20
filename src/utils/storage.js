@@ -37,6 +37,12 @@ export function saveUserData(username, avatar) {
   localStorage.setItem('userAvatar', avatar)
 }
 
+// Supprimer les données utilisateur
+export function deleteUserData() {
+  localStorage.removeItem('username')
+  localStorage.removeItem('userAvatar')
+}
+
 // Vérifier si un utilisateur existe
 export function userExists() {
   const username = localStorage.getItem('username')

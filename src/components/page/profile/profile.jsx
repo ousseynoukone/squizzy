@@ -44,28 +44,6 @@ export default function Profile({ onBack, onRetake }) {
   return (
     <div className="min-h-screen bg-white pb-16">
       <main className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 px-4 pt-8">
-        {/* Back Button */}
-        <div className="w-full flex justify-start">
-          <button
-            type="button"
-            onClick={onBack}
-            className="flex items-center gap-2 text-slate-600 hover:text-slate-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB40] rounded-lg px-3 py-2"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span className="text-sm font-medium">Retour</span>
-          </button>
-        </div>
 
         {/* Profile Section */}
         <section className="flex w-full flex-col items-center gap-4">

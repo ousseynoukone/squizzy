@@ -1,6 +1,6 @@
 import FormConnection from "./forum.jsx"
 
-export default function Connexion({ onComplete }) {
+export default function Connexion() {
   return (
     <div className="min-h-screen bg-[#F4F6FB] flex w-full items-center justify-center py-16">
       <div className="w-full max-w-3xl rounded-3xl bg-white px-12 py-10 shadow-[0_24px_80px_rgba(15,23,42,0.12)]">
@@ -22,7 +22,7 @@ export default function Connexion({ onComplete }) {
           <div className="text-sm font-medium text-slate-600">
             Qui êtes-vous ?
           </div>
-          <FormConnection onComplete={onComplete} />
+          <FormConnection />
         </div>
       </div>
     </div>

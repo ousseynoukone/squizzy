@@ -11,6 +11,7 @@ import Profile from './components/page/profile/profile.jsx'
 import { userExists } from './utils/storage.js'
 import { generateQuestionList } from './data/questions.js'
 import NavBar from './components/layout/navbar.jsx'
+import { createBrowserRouter, Router, RouterProvider, Navigate } from 'react-router-dom'
 
 function App() {
   const [step, setStep] = useState('connection')
@@ -74,57 +75,103 @@ function App() {
     setStep('quiz')
   }
 
-  return (
-    <Layout>
-      {step === 'connection' && (
-        <Connexion onComplete={handleConnectionComplete} />
-      )}
-      {step === 'theme' && (
-        <div> 
-        <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
-        <ThemeSelection onThemeSelect={handleThemeSelect} onProfileClick={handleProfileClick} />
-        </div>
-      )}
-      {step === 'difficulty' && selectedTheme && (
-        <div> 
-          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
-          <DifficultySelect
-            theme={selectedTheme}
-            onDifficultySelect={handleDifficultySelect}
-          />
+  const router = createBrowserRouter(
 
-        </div>
-      )}
-      {step === 'quiz' && quizQuestions && selectedTheme && selectedDifficulty !== null && (
-               <div> 
-          <NavBar isPPShown={false} />
+    [
+      {
+        path: "/",
+        element: <Layout />,
+        children: [
+          {
+            index: true,            
+            element: <Navigate to="/home" replace />
+          },
+          {
+            path: "/home",
+            element: <div>Home</div>,
+          },
+          {
+            path: "/login",
+            element: <Connexion />,
+          },
 
-       <QuizGame
-          questions={quizQuestions}
-          theme={selectedTheme}
-          difficultyIndex={selectedDifficulty}
-          onComplete={handleQuizComplete}
-        />
-
-          </div>
-      )}
-      {step === 'result' && quizResults && (
-        <div> 
-          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
-          <QuizResult
-            data={quizResults}
-            theme={selectedTheme}
-            onReplay={handleReplay}
-            onNewTheme={handleNewTheme}
-            onProfileClick={handleProfileClick} 
-          />
-        </div>
-      )}
-      {step === 'profile' && (
-        <Profile onBack={handleBackFromProfile} onRetake={handleRetakeFromProfile} />
-      )}
-    </Layout>
+          {
+            path: "/theme",
+            element: <ThemeSelection ></ThemeSelection>,
+          },
+          {
+            path: "/difficulty",
+            element: <DifficultySelect></DifficultySelect>,
+          },
+          {
+            path: "/quiz",
+            element:  <QuizGame></QuizGame>,
+          },
+          {
+            path: "/result",
+            element: <QuizResult></QuizResult>,
+          },
+          {
+            path: "/profile",
+            element: <Profile />,
+          }
+        ]
+      }
+    ]
   )
+  // return (
+  //   <Layout>
+  //     {step === 'connection' && (
+  //       <Connexion onComplete={handleConnectionComplete} />
+  //     )}
+  //     {step === 'theme' && (
+  //       <div> 
+  //       <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+  //       <ThemeSelection onThemeSelect={handleThemeSelect} onProfileClick={handleProfileClick} />
+  //       </div>
+  //     )}
+  //     {step === 'difficulty' && selectedTheme && (
+  //       <div> 
+  //         <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+  //         <DifficultySelect
+  //           theme={selectedTheme}
+  //           onDifficultySelect={handleDifficultySelect}
+  //         />
+
+  //       </div>
+  //     )}
+  //     {step === 'quiz' && quizQuestions && selectedTheme && selectedDifficulty !== null && (
+  //              <div> 
+  //         <NavBar isPPShown={false} />
+
+  //      <QuizGame
+  //         questions={quizQuestions}
+  //         theme={selectedTheme}
+  //         difficultyIndex={selectedDifficulty}
+  //         onComplete={handleQuizComplete}
+  //       />
+
+  //         </div>
+  //     )}
+  //     {step === 'result' && quizResults && (
+  //       <div> 
+  //         <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+  //         <QuizResult
+  //           data={quizResults}
+  //           theme={selectedTheme}
+  //           onReplay={handleReplay}
+  //           onNewTheme={handleNewTheme}
+  //           onProfileClick={handleProfileClick} 
+  //         />
+  //       </div>
+  //     )}
+  //     {step === 'profile' && (
+  //       <Profile onBack={handleBackFromProfile} onRetake={handleRetakeFromProfile} />
+  //     )}
+  //   </Layout>
+  // )
+
+  return <RouterProvider router={router} />
 }
 
 export default App

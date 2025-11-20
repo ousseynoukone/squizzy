@@ -1,17 +1,29 @@
 import { useEffect } from 'react'
 import { saveQuizHistory } from '../../../utils/storage.js'
 import { getEvaluation } from '../../../utils/evaluation.js'
-import { getQuizByThemeId } from '../../../data/quizzes.js'
+import { useLocation, useNavigate } from 'react-router-dom'
 
-export default function QuizResult({ data, theme, onReplay, onNewTheme }) {
+export default function QuizResult() {
+  const navigate = useNavigate()
+
+  const data = useLocation().state.results
+
+  function onReplay() {
+    navigate('/difficulty', { state: { theme: data.theme } })
+  }
+
+  function onNewTheme() {
+    navigate('/theme')
+  }
+
+
   useEffect(() => {
-    if (data && theme) {
-      const quiz = getQuizByThemeId(theme.id)
+    if (data ) {
       const difficultyNames = ['Facile', 'Normal', 'Difficile']
       const difficultyName = difficultyNames[data.difficultyIndex] || 'Inconnu'
       
       saveQuizHistory({
-        theme: theme.titre,
+        theme: data.theme.titre,
         difficulte: difficultyName,
         score: data.score,
         totalPoints: data.totalPossiblePoints,
@@ -20,7 +32,7 @@ export default function QuizResult({ data, theme, onReplay, onNewTheme }) {
         evaluation: getEvaluation(data.scorePercentage),
       })
     }
-  }, [data, theme])
+  }, [data])
 
   if (!data) return null
 
