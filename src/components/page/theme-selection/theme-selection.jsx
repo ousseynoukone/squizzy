@@ -1,4 +1,5 @@
 import { themes } from "../../../data/themes.js"
+import { Test } from "../../../utils/crud.js"
 
 const accentColors = [
   "from-[#FFEAB7] to-[#FFEAB7]",
@@ -7,6 +8,8 @@ const accentColors = [
   "from-[#9CC9FF] to-[#2F6DFF]",
   "from-[#FFEAB7] to-[#FFEAB7]",
 ]
+
+Test();
 
 export default function ThemeSelection({ onThemeSelect }) {
   return (
