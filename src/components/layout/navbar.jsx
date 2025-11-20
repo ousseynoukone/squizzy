@@ -1,8 +1,14 @@
 
+import { deleteUserData } from '../../utils/storage.js';
 import { getUsername, getUserAvatar } from '../../utils/utils.js';
 
 export default function NavBar({ isPPShown = true, onProfileClick }) {
   const avatar = getUserAvatar() || "https://i.pravatar.cc/40?img=47"
+
+  function logout() {
+    deleteUserData();
+    window.location.reload();
+  }
   
   return (
     <header className="w-full py-6">
@@ -17,6 +23,8 @@ export default function NavBar({ isPPShown = true, onProfileClick }) {
         </div>
         
     {isPPShown && (
+
+      <>
         <button
           onClick={onProfileClick}
           type="button"
@@ -29,6 +37,19 @@ export default function NavBar({ isPPShown = true, onProfileClick }) {
             className="h-9 w-9 rounded-full object-cover"
           />  
         </button>
+
+        <button
+          onClick={logout}
+          type="button"
+          className="flex items-center gap-3   rounded-full border border-white/60 bg-red-900 text-white px-5 py-1.5 shadow-sm transition hover:shadow-md cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB40]"
+        >
+          Déconnexion
+
+
+        </button>
+
+
+    </>
     )}
 
       </div>
