@@ -17,7 +17,7 @@ export default function ThemeSelection() {
   }
 
   return (
-    <div className="pb-16">
+    <div className="pb-16 mt-10">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4">
         <div className="flex flex-col items-center text-center gap-3">
           <h1 className="text-3xl font-semibold text-slate-900">
