@@ -186,7 +186,7 @@ export default function QuizGame() {
   if (!currentQuestion) return null
 
   return (
-    <div className="min-h-screen bg-[#F4F6FB] pb-16">
+    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-10">
       <main className="mx-auto flex w-full max-w-5xl flex-col items-center gap-10 px-4 text-center">
         <div className="flex flex-col gap-3">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#94A3B8]">

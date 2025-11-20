@@ -42,7 +42,7 @@ export default function Profile({ onBack, onRetake }) {
   }
 
   return (
-    <div className="min-h-screen bg-white pb-16">
+    <div className="min-h-screen bg-white pb-16 mt-10">
       <main className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 px-4 pt-8">
 
         {/* Profile Section */}
