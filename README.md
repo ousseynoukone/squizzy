@@ -22,4 +22,3 @@ The final results page provides a comprehensive breakdown of the player's perfor
 * Breakdown of questions answered correctly based on their **Difficulty**.
 * A descriptive **Evaluation** (e.g., "Excellent," "Average") based on the final score.
 
-Would you like me to elaborate on the **data structures** or the **page transitions** in this conceptual flow?
