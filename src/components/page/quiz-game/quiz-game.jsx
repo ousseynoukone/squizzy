@@ -1,5 +1,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { getEvaluation } from '../../../utils/evaluation'
+import { saveQuizHistory } from '../../../utils/storage'
 
 function AnswerCard({ answer, answerId, isSelected, onSelect }) {
   const baseClasses =
@@ -143,6 +145,22 @@ export default function QuizGame() {
       answers: allAnswers,
       theme: theme,
       difficultyIndex,
+    }
+
+    // On save l'historique du quiz
+    if (results) {
+      const difficultyNames = ['Facile', 'Normal', 'Difficile']
+      const difficultyName = difficultyNames[results.difficultyIndex] || 'Inconnu'
+        
+      saveQuizHistory({
+        theme: results.theme.titre,
+        difficulte: difficultyName,
+        score: results.score,
+        totalPoints: results.totalPossiblePoints,
+        correctAnswers: results.correctAnswers,
+        totalQuestions: results.totalQuestions,
+        evaluation: getEvaluation(results.scorePercentage),
+      })
     }
 
     

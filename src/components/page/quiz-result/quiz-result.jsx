@@ -17,23 +17,6 @@ export default function QuizResult() {
   }
 
 
-  useEffect(() => {
-    if (data ) {
-      const difficultyNames = ['Facile', 'Normal', 'Difficile']
-      const difficultyName = difficultyNames[data.difficultyIndex] || 'Inconnu'
-      
-      saveQuizHistory({
-        theme: data.theme.titre,
-        difficulte: difficultyName,
-        score: data.score,
-        totalPoints: data.totalPossiblePoints,
-        correctAnswers: data.correctAnswers,
-        totalQuestions: data.totalQuestions,
-        evaluation: getEvaluation(data.scorePercentage),
-      })
-    }
-  }, [data])
-
   if (!data) return null
 
   const evaluation = getEvaluation(data.scorePercentage)
