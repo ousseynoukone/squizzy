@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom"
 import { themes } from "../../../data/themes.js"
 
 const accentColors = [
@@ -8,7 +9,13 @@ const accentColors = [
   "from-[#FFEAB7] to-[#FFEAB7]",
 ]
 
-export default function ThemeSelection({ onThemeSelect }) {
+export default function ThemeSelection() {
+  const navigate = useNavigate()
+
+  function onThemeSelect (theme) {
+    navigate('/difficulty', { state: { theme } })
+  }
+
   return (
     <div className="pb-16">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4">

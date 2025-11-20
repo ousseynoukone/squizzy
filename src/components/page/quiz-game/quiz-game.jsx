@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 function AnswerCard({ answer, answerId, isSelected, onSelect }) {
   const baseClasses =
@@ -27,7 +28,15 @@ function AnswerCard({ answer, answerId, isSelected, onSelect }) {
   )
 }
 
-export default function QuizGame({ questions, theme, difficultyIndex, onComplete }) {
+export default function QuizGame() {
+  const navigate = useNavigate()
+
+  const theme = useLocation().state.theme
+  const difficultyIndex = useLocation().state.difficultyIndex
+  const questions = useLocation().state.questions
+  
+
+
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [timeLeft, setTimeLeft] = useState(null)
@@ -132,13 +141,13 @@ export default function QuizGame({ questions, theme, difficultyIndex, onComplete
       scorePercentage,
       segments,
       answers: allAnswers,
-      theme: theme.titre,
+      theme: theme,
       difficultyIndex,
     }
 
-    if (onComplete) {
-      onComplete(results)
-    }
+    
+    navigate('/result', { state: { results } })
+ 
   }
 
   const formattedTime = useMemo(() => {

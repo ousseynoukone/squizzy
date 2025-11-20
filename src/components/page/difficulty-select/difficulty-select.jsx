@@ -1,5 +1,10 @@
 import { getQuizByThemeId } from '../../../data/quizzes.js'
 import { generateQuestionList } from '../../../data/questions.js'
+import { useLocation ,useNavigate} from 'react-router-dom'
+import { useEffect } from 'react'
+
+
+
 
 const difficultyStyles = [
   {
@@ -19,6 +24,8 @@ const difficultyStyles = [
   },
 ]
 
+
+
 const questionDistribution = [
   { facile: 5, moyen: 3, difficile: 2 },
   { facile: 3, moyen: 5, difficile: 2 },
@@ -31,7 +38,14 @@ const questionChronos = {
   Difficile: 20,
 }
 
-export default function DifficultySelect({ theme, onDifficultySelect }) {
+export default function DifficultySelect() {
+  const navigator = useNavigate()
+  let theme = null
+  
+  theme = useLocation().state.theme
+
+
+
   if (!theme) return null
 
   const quiz = getQuizByThemeId(theme.id)
@@ -39,9 +53,8 @@ export default function DifficultySelect({ theme, onDifficultySelect }) {
 
   const handleDifficultyClick = (difficultyIndex) => {
     const questions = generateQuestionList(theme.id, difficultyIndex)
-    if (onDifficultySelect) {
-      onDifficultySelect(difficultyIndex, questions)
-    }
+    navigator('/quiz', { state: { theme, difficultyIndex, questions } })
+   
   }
 
   const formatTime = (seconds) => {
