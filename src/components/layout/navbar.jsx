@@ -1,7 +1,9 @@
 
-import { getUsername } from '../../utils/utils.js';
+import { getUsername, getUserAvatar } from '../../utils/utils.js';
 
 export default function NavBar({ isPPShown = true, onProfileClick }) {
+  const avatar = getUserAvatar() || "https://i.pravatar.cc/40?img=47"
+  
   return (
     <header className="w-full py-6">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4">
@@ -22,7 +24,7 @@ export default function NavBar({ isPPShown = true, onProfileClick }) {
         >
           <span className="text-sm font-medium text-slate-700">{getUsername()}</span>
           <img
-            src="https://i.pravatar.cc/40?img=47"
+            src={avatar}
             alt="Avatar"
             className="h-9 w-9 rounded-full object-cover"
           />  

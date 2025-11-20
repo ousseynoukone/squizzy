@@ -1,52 +1,61 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 import Layout from './components/layout/layout.jsx'
+import Connexion from './components/page/connection/connection.jsx'
+import ThemeSelection from './components/page/theme-selection/theme-selection.jsx'
 import DifficultySelect from './components/page/difficulty-select/difficulty-select.jsx'
 import QuizGame from './components/page/quiz-game/quiz-game.jsx'
 import QuizResult from './components/page/quiz-result/quiz-result.jsx'
 import Profile from './components/page/profile/profile.jsx'
-
-const mockResults = {
-  totalQuestions: 10,
-  correctAnswers: 7,
-  score: 720,
-  bestScore: 900,
-  segments: [
-    { label: 'Facile', value: 90 },
-    { label: 'Moyen', value: 70 },
-    { label: 'Difficile', value: 50 },
-  ],
-  answers: [
-    { id: 1, text: 'Q1 Canberra — Correct' },
-    { id: 2, text: 'Q2 Paris — Correct' },
-    { id: 3, text: 'Q3 Tokyo — Correct' },
-    { id: 4, text: 'Q4 Nairobi — Incorrect' },
-    { id: 5, text: 'Q5 Amazon — Correct' },
-    { id: 6, text: 'Q6 Sahara — Incorrect' },
-    { id: 7, text: 'Q7 Jupiter — Correct' },
-    { id: 8, text: 'Q8 Everest — Correct' },
-    { id: 9, text: 'Q9 Beethoven — Correct' },
-    { id: 10, text: '10e question non répondue' },
-  ],
-}
+import { userExists } from './utils/storage.js'
+import { generateQuestionList } from './data/questions.js'
+import NavBar from './components/layout/navbar.jsx'
 
 function App() {
-  const [step, setStep] = useState('difficulty')
+  const [step, setStep] = useState('connection')
+  const [selectedTheme, setSelectedTheme] = useState(null)
   const [selectedDifficulty, setSelectedDifficulty] = useState(null)
+  const [quizQuestions, setQuizQuestions] = useState(null)
+  const [quizResults, setQuizResults] = useState(null)
 
-  const handleDifficultySelect = (difficulty) => {
-    setSelectedDifficulty(difficulty)
+  useEffect(() => {
+    if (userExists()) {
+      setStep('theme')
+    }
+  }, [])
+
+  const handleConnectionComplete = () => {
+    setStep('theme')
+  }
+
+  const handleThemeSelect = (theme) => {
+    setSelectedTheme(theme)
+    setStep('difficulty')
+  }
+
+  const handleDifficultySelect = (difficultyIndex, questions) => {
+    setSelectedDifficulty(difficultyIndex)
+    setQuizQuestions(questions)
     setStep('quiz')
   }
 
-  const handleQuizFinish = () => {
+  const handleQuizComplete = (results) => {
+    setQuizResults(results)
     setStep('result')
   }
 
   const handleReplay = () => {
-    setSelectedDifficulty(null)
+    setQuizResults(null)
     setStep('difficulty')
+  }
+
+  const handleNewTheme = () => {
+    setSelectedTheme(null)
+    setSelectedDifficulty(null)
+    setQuizQuestions(null)
+    setQuizResults(null)
+    setStep('theme')
   }
 
   const handleProfileClick = () => {
@@ -54,28 +63,65 @@ function App() {
   }
 
   const handleBackFromProfile = () => {
-    setStep('difficulty')
+    setStep('theme')
+  }
+
+  const handleRetakeFromProfile = (theme, difficultyIndex) => {
+    setSelectedTheme(theme)
+    setSelectedDifficulty(difficultyIndex)
+    const questions = generateQuestionList(theme.id, difficultyIndex)
+    setQuizQuestions(questions)
+    setStep('quiz')
   }
 
   return (
     <Layout>
-      {step === 'difficulty' && (
-        <DifficultySelect onClick={handleDifficultySelect} onProfileClick={handleProfileClick} />
+      {step === 'connection' && (
+        <Connexion onComplete={handleConnectionComplete} />
       )}
-      {step === 'quiz' && (
-        <QuizGame
-          difficulty={selectedDifficulty}
-          onFinish={handleQuizFinish}
-        />
+      {step === 'theme' && (
+        <div> 
+        <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+        <ThemeSelection onThemeSelect={handleThemeSelect} onProfileClick={handleProfileClick} />
+        </div>
       )}
-      {step === 'result' && (
-        <QuizResult
-          data={mockResults}
-          onReplay={handleReplay}
+      {step === 'difficulty' && selectedTheme && (
+        <div> 
+          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+          <DifficultySelect
+            theme={selectedTheme}
+            onDifficultySelect={handleDifficultySelect}
+          />
+
+        </div>
+      )}
+      {step === 'quiz' && quizQuestions && selectedTheme && selectedDifficulty !== null && (
+               <div> 
+          <NavBar isPPShown={false} />
+
+       <QuizGame
+          questions={quizQuestions}
+          theme={selectedTheme}
+          difficultyIndex={selectedDifficulty}
+          onComplete={handleQuizComplete}
         />
+
+          </div>
+      )}
+      {step === 'result' && quizResults && (
+        <div> 
+          <NavBar isPPShown={true} onProfileClick={handleProfileClick} />
+          <QuizResult
+            data={quizResults}
+            theme={selectedTheme}
+            onReplay={handleReplay}
+            onNewTheme={handleNewTheme}
+            onProfileClick={handleProfileClick} 
+          />
+        </div>
       )}
       {step === 'profile' && (
-        <Profile onBack={handleBackFromProfile} />
+        <Profile onBack={handleBackFromProfile} onRetake={handleRetakeFromProfile} />
       )}
     </Layout>
   )

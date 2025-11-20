@@ -1,9 +1,8 @@
-import forumconnection from "./forum.jsx"
+import FormConnection from "./forum.jsx"
 
-export default function Connexion() {
-
+export default function Connexion({ onComplete }) {
   return (
-    <div className="flex w-full items-center justify-center">
+    <div className="min-h-screen bg-[#F4F6FB] flex w-full items-center justify-center py-16">
       <div className="w-full max-w-3xl rounded-3xl bg-white px-12 py-10 shadow-[0_24px_80px_rgba(15,23,42,0.12)]">
         <div className="flex flex-col items-center text-center gap-8">
           <div className="flex flex-col items-center gap-4">
@@ -23,7 +22,7 @@ export default function Connexion() {
           <div className="text-sm font-medium text-slate-600">
             Qui êtes-vous ?
           </div>
-          {forumconnection()}
+          <FormConnection onComplete={onComplete} />
         </div>
       </div>
     </div>
