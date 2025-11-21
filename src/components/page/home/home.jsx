@@ -1,6 +1,9 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { userExists } from '../../../utils/storage';
+import { DivHome } from '../../UI/div-home.jsx';
+
 export default function Home () {
+
   const navigate = useNavigate();
 
   function navigateToHome() {
@@ -27,30 +30,11 @@ export default function Home () {
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 border-b-2 border-blue-500 pb-3 mb-6">
               Comment ça marche ?
             </h2>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 font-bold rounded-full">1</div>
-              <p className="text-base sm:text-lg text-gray-700">
-                <span className="font-semibold">Choisissez votre thème :</span> Explorez une variété de sujets pour tester vos connaissances.
-              </p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 font-bold rounded-full">2</div>
-              <p className="text-base sm:text-lg text-gray-700">
-                <span className="font-semibold">Sélectionnez la difficulté :</span> Adaptez le challenge à votre niveau (Facile, Moyen, Difficile).
-              </p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 font-bold rounded-full">3</div>
-              <p className="text-base sm:text-lg text-gray-700">
-                <span className="font-semibold">Répondez rapidement :</span> Chaque question est chronométrée pour pimenter le jeu.
-              </p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 font-bold rounded-full">4</div>
-              <p className="text-base sm:text-lg text-gray-700">
-                <span className="font-semibold">Évaluez vos résultats :</span> Suivez votre progression avec un score détaillé.
-              </p>
-            </div>
+
+            <DivHome text1="Choisissez votre thème :" text2="Explorez une variété de sujets pour tester vos connaissances." index={1} />
+            <DivHome text1="Sélectionnez la difficulté :" text2="Adaptez le challenge à votre niveau (Facile, Moyen, Difficile)." index={2} />
+            <DivHome text1="Répondez rapidement :" text2="Chaque question est chronométrée pour pimenter le jeu." index={3} />
+            <DivHome text1="Évaluez vos résultats :" text2="Suivez votre progression avec un score détaillé." index={4} />
           </div>
 
           <div className="mt-12 text-center md:text-left">
