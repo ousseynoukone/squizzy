@@ -68,7 +68,7 @@ export default function QuizGame() {
     }, 1000)
 
     return () => clearInterval(interval)
-  }, [timeLeft, currentQuestionIndex])
+  }, [timeLeft])
 
   const handleSubmitAnswer = (answer) => {
     if (isSubmitting) return
@@ -186,7 +186,7 @@ export default function QuizGame() {
   if (!currentQuestion) return null
 
   return (
-    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-10">
+    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-6">
       <main className="mx-auto flex w-full max-w-5xl flex-col items-center gap-10 px-4 text-center">
         <div className="flex flex-col gap-3">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#94A3B8]">
@@ -198,10 +198,11 @@ export default function QuizGame() {
           </p>
         </div>
 
-        <section className="grid w-full gap-6 md:grid-cols-[1fr_auto_1fr] md:grid-rows-2 md:items-center">
+        <section className="grid w-full gap-6 md:grid-cols-[1fr_auto_1fr] md:grid-rows-1 md:items-center">
           <div className="flex flex-col gap-6">
             {leftAnswers.map((answer, idx) => {
               const answerId = answerLabels[idx]
+ 
               return (
                 <AnswerCard
                   key={idx}
@@ -214,7 +215,7 @@ export default function QuizGame() {
             })}
           </div>
 
-          <div className="row-span-2 flex items-center justify-center">
+          <div className="flex items-center justify-center">
             <div className={`flex h-36 w-36 flex-col items-center justify-center rounded-full border border-[#E2E8F0] bg-white text-2xl font-semibold shadow-[0_18px_40px_rgba(15,23,42,0.08)] ${
               timeLeft !== null && timeLeft <= 5 ? 'text-red-600' : 'text-slate-900'
             }`}>
@@ -241,7 +242,7 @@ export default function QuizGame() {
         <button
           type="button"
           disabled={isSubmitting}
-          className="rounded-full border border-transparent bg-[#2563EB] px-10 py-3 text-sm font-semibold text-white shadow-lg shadow-[#2563EB40] transition hover:bg-[#1d4ed8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB60] disabled:opacity-50"
+          className="rounded-full border border-transparent bg-[#2563EB] mt-10 p-10 py-3 text-sm font-semibold text-white shadow-lg shadow-[#2563EB40] transition hover:bg-[#1d4ed8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB60] disabled:opacity-50"
           onClick={() => handleSubmitAnswer(selectedAnswer)}
         >
           {isSubmitting ? 'Validation...' : 'Valider'}

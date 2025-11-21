@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { getUsername, getUserAvatar } from "../../../utils/utils.js"
 import { getQuizHistory, deleteQuizHistory, clearAllQuizHistory } from "../../../utils/storage.js"
-import { themes } from "../../../data/themes.js"
+import { themes } from "../../../data/services/themes.js"
 
 export default function Profile({ onBack, onRetake }) {
   const username = getUsername() || "AlexA"
@@ -42,7 +42,7 @@ export default function Profile({ onBack, onRetake }) {
   }
 
   return (
-    <div className="min-h-screen bg-white pb-16 mt-10">
+    <div className="min-h-screen bg-white pb-16 mt-6">
       <main className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 px-4 pt-8">
 
         {/* Profile Section */}

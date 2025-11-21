@@ -1,5 +1,8 @@
 // Configuration des quiz par thème et difficulté
 // Chaque quiz a 3 niveaux de difficulté avec différentes configurations
+// Données des thèmes disponibles dans l'application
+
+
 
 export const quizzes = [
   // Thème 1: Capitales du Monde
@@ -117,6 +120,28 @@ export const quizzes = [
       },
     ],
   },
+    {
+    id: 6,
+    titre: "Jeu vidéo",
+    themeId: 6,
+    difficulteQuizz: [
+      {
+        titre: "Facile",
+        nbrPoints: 100,
+        chrono: 600,
+      },
+      {
+        titre: "Normal",
+        nbrPoints: 200,
+        chrono: 480,
+      },
+      {
+        titre: "Difficile",
+        nbrPoints: 300,
+        chrono: 360,
+      },
+    ],
+  },
 ]
 
 // Fonction pour obtenir un quiz par thème
@@ -124,10 +149,10 @@ export function getQuizByThemeId(themeId) {
   return quizzes.find(q => q.themeId === themeId)
 }
 
+
 // Fonction pour obtenir la configuration de difficulté
 export function getDifficultyConfig(themeId, difficultyIndex) {
   const quiz = getQuizByThemeId(themeId)
   if (!quiz) return null
   return quiz.difficulteQuizz[difficultyIndex]
 }
-

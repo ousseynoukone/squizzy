@@ -1,4 +1,3 @@
-// Données des thèmes disponibles dans l'application
 export const themes = [
   {
     id: 1,
@@ -25,5 +24,10 @@ export const themes = [
     titre: "Programmation JS",
     description: "JavaScript, frameworks modernes, concepts avancés et bonnes pratiques du développement web.",
   },
+ {
+    id: 6,
+    titre: "Jeu Vidéo",
+    description : "Plongez dans l'univers des jeux vidéo: histoire, genres, consoles et icônes du gaming.",
+  },
+  
 ]
-

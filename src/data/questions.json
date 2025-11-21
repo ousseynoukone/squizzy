@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "intitule": "Quelle est la capitale de l'Australie ?",
+    "themeId": 1,
+    "listeReponses": ["Sydney", "Canberra", "Melbourne", "Perth"],
+    "bonneReponse": "Canberra",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 2,
+    "intitule": "Quelle est la capitale du Japon ?",
+    "themeId": 1,
+    "listeReponses": ["Osaka", "Kyoto", "Tokyo", "Yokohama"],
+    "bonneReponse": "Tokyo",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 3,
+    "intitule": "Quelle est la capitale du Brésil ?",
+    "themeId": 1,
+    "listeReponses": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+    "bonneReponse": "Brasília",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 4,
+    "intitule": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "themeId": 1,
+    "listeReponses": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+    "bonneReponse": "Wellington",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 5,
+    "intitule": "Quelle est la capitale du Canada ?",
+    "themeId": 1,
+    "listeReponses": ["Toronto", "Montréal", "Ottawa", "Vancouver"],
+    "bonneReponse": "Ottawa",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 6,
+    "intitule": "Quelle est la capitale du Maroc ?",
+    "themeId": 1,
+    "listeReponses": ["Casablanca", "Rabat", "Marrakech", "Fès"],
+    "bonneReponse": "Rabat",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 7,
+    "intitule": "Quelle est la capitale de la Turquie ?",
+    "themeId": 1,
+    "listeReponses": ["Istanbul", "Ankara", "Izmir", "Antalya"],
+    "bonneReponse": "Ankara",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 8,
+    "intitule": "Quelle est la capitale du Myanmar ?",
+    "themeId": 1,
+    "listeReponses": ["Yangon", "Naypyidaw", "Mandalay", "Bago"],
+    "bonneReponse": "Naypyidaw",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 9,
+    "intitule": "Quelle est la capitale du Bhoutan ?",
+    "themeId": 1,
+    "listeReponses": ["Paro", "Thimphou", "Punakha", "Wangdue Phodrang"],
+    "bonneReponse": "Thimphou",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 10,
+    "intitule": "Quelle est la capitale du Suriname ?",
+    "themeId": 1,
+    "listeReponses": ["Paramaribo", "Lelydorp", "Nieuw Nickerie", "Moengo"],
+    "bonneReponse": "Paramaribo",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 11,
+    "intitule": "En quelle année a eu lieu la Révolution française ?",
+    "themeId": 2,
+    "listeReponses": ["1787", "1789", "1791", "1793"],
+    "bonneReponse": "1789",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 12,
+    "intitule": "Qui était le roi de France lors de la Révolution ?",
+    "themeId": 2,
+    "listeReponses": ["Louis XV", "Louis XVI", "Louis XVII", "Louis XVIII"],
+    "bonneReponse": "Louis XVI",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 13,
+    "intitule": "Quelle bataille a marqué la fin de Napoléon ?",
+    "themeId": 2,
+    "listeReponses": ["Austerlitz", "Waterloo", "Iéna", "Marengo"],
+    "bonneReponse": "Waterloo",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 14,
+    "intitule": "En quelle année a été signé l'édit de Nantes ?",
+    "themeId": 2,
+    "listeReponses": ["1596", "1598", "1600", "1602"],
+    "bonneReponse": "1598",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 15,
+    "intitule": "Qui était le Premier ministre sous Louis XIV ?",
+    "themeId": 2,
+    "listeReponses": ["Richelieu", "Mazarin", "Colbert", "Fouquet"],
+    "bonneReponse": "Colbert",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 16,
+    "intitule": "Quelle dynastie a régné sur la France de 987 à 1328 ?",
+    "themeId": 2,
+    "listeReponses": ["Mérovingiens", "Carolingiens", "Capétiens", "Valois"],
+    "bonneReponse": "Capétiens",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 17,
+    "intitule": "Quelle est la vitesse de la lumière dans le vide ?",
+    "themeId": 3,
+    "listeReponses": ["300 000 km/s", "150 000 km/s", "450 000 km/s", "600 000 km/s"],
+    "bonneReponse": "300 000 km/s",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 18,
+    "intitule": "Quel est le symbole chimique de l'or ?",
+    "themeId": 3,
+    "listeReponses": ["Or", "Au", "Go", "Ag"],
+    "bonneReponse": "Au",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 19,
+    "intitule": "Combien de planètes composent notre système solaire ?",
+    "themeId": 3,
+    "listeReponses": ["7", "8", "9", "10"],
+    "bonneReponse": "8",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 20,
+    "intitule": "Qu'est-ce que la photosynthèse ?",
+    "themeId": 3,
+    "listeReponses": [
+      "La production d'énergie par les cellules",
+      "La transformation de la lumière en énergie chimique par les plantes",
+      "La respiration des plantes",
+      "La décomposition de la matière organique"
+    ],
+    "bonneReponse": "La transformation de la lumière en énergie chimique par les plantes",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 21,
+    "intitule": "Quel est le nombre d'Avogadro approximatif ?",
+    "themeId": 3,
+    "listeReponses": ["6.02 × 10²³", "6.02 × 10²²", "6.02 × 10²⁴", "6.02 × 10²⁵"],
+    "bonneReponse": "6.02 × 10²³",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 22,
+    "intitule": "Qui a réalisé le film 'Pulp Fiction' ?",
+    "themeId": 4,
+    "listeReponses": ["Martin Scorsese", "Quentin Tarantino", "Steven Spielberg", "Christopher Nolan"],
+    "bonneReponse": "Quentin Tarantino",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 23,
+    "intitule": "Quel film a remporté l'Oscar du meilleur film en 2020 ?",
+    "themeId": 4,
+    "listeReponses": ["1917", "Parasite", "Joker", "Once Upon a Time in Hollywood"],
+    "bonneReponse": "Parasite",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 24,
+    "intitule": "Dans quel film entend-on 'May the Force be with you' ?",
+    "themeId": 4,
+    "listeReponses": ["Star Trek", "Star Wars", "Blade Runner", "Dune"],
+    "bonneReponse": "Star Wars",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 25,
+    "intitule": "Qu'est-ce qu'une closure en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Une fonction qui peut accéder aux variables de son scope parent",
+      "Une méthode pour fermer une fonction",
+      "Un type de boucle",
+      "Une structure de données"
+    ],
+    "bonneReponse": "Une fonction qui peut accéder aux variables de son scope parent",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 26,
+    "intitule": "Quelle méthode permet de créer un nouveau tableau à partir d'un autre ?",
+    "themeId": 5,
+    "listeReponses": ["forEach", "map", "filter", "reduce"],
+    "bonneReponse": "map",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 27,
+    "intitule": "Qu'est-ce que le hoisting en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Le déplacement des déclarations en haut du scope",
+      "Une erreur de syntaxe",
+      "Une méthode de performance",
+      "Un type de variable"
+    ],
+    "bonneReponse": "Le déplacement des déclarations en haut du scope",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+    {
+    "id": 28,
+    "intitule": "Quelle entreprise est propriétaire de Super Mario ?",
+    "listeReponses": ["Nintendo", "Sega", "Microsoft", "Sony"],
+    "bonneReponse": "Nintendo",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 29,
+    "intitule": "Comment s'appelle l'Hérisson Bleu mascotte de Sega ?",
+    "listeReponses": ["Sonic", "Sanic", "Senic", "Sunic"],
+    "bonneReponse": "Sonic",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 30,
+    "intitule": "Quelle est l'évolution de Pikachu dans les jeux Pokémons ?",
+    "listeReponses": ["Raichu", "Pichu", "Méga-Pikachu", "Piketchup"],
+    "bonneReponse": "Raichu",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 31,
+    "intitule": "De quel jeu est originaire Donkey Kong ?",
+    "listeReponses": ["Donkey Kong", "Super Mario Bros", "Donkey Kong Country", "Super Mario World"],
+    "bonneReponse": "Donkey Kong",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 32,
+    "intitule": "La marque Playstation appartient à :",
+    "listeReponses": ["Sony", "Microsoft", "Playstation", "Nintendo"],
+    "bonneReponse": "Sony",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 33,
+    "intitule": "Quelle est le nom de la plus grande boutique en ligne de jeux vidéos sur PC ?",
+    "listeReponses": ["Steam", "GOG", "Uplay", "Windows Store"],
+    "bonneReponse": "Steam",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 34,
+    "intitule": "Qui est le protagoniste de The Legend of Zelda ?",
+    "listeReponses": ["Link", "Zelda", "Le Héro", "L'Élu"],
+    "bonneReponse": "Link",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 35,
+    "intitule": "Comment s'appelle le frère de Mario ?",
+    "listeReponses": ["Luigi", "Toni", "Marco", "Wario"],
+    "bonneReponse": "Luigi",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 36,
+    "intitule": "Quelle est la console la plus vendue au monde ? (2025)",
+    "listeReponses": ["Playstation 2", "Wii", "Nintendo DS", "Xbox 360"],
+    "bonneReponse": "Playstation 2",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 37,
+    "intitule": "Quel est le jeu le plus vendu au monde ? (2025)",
+    "listeReponses": ["Minecraft", "Tetris", "Super Mario Bros", "Call of Duty Black Ops"],
+    "bonneReponse": "Minecraft",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 38,
+    "intitule": "Qui est l'antagoniste de Final Fantasy 7 ?",
+    "listeReponses": ["Sephiroth", "Kefka", "Cloud", "Xehanort"],
+    "bonneReponse": "Sephiroth",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 39,
+    "intitule": "En 2024, EA a perdu le droit de FIFA. Comment se nomme leur jeu de football maintenant ?",
+    "listeReponses": ["EA Sports FC", "Fifoot", "E-Football", "Fifa"],
+    "bonneReponse": "EA Sports FC",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 40,
+    "intitule": "Avant la sortie de Pokémon Écarlate et Violet, combien y avait-il de Pokémons dans le Pokédex ?",
+    "listeReponses": ["905", "1025", "897", "1132"],
+    "bonneReponse": "905",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 41,
+    "intitule": "Quel est le surnom du protagoniste principal de Halo ?",
+    "listeReponses": ["Master Chief", "Doom Guy", "Samus Aran", "Bob"],
+    "bonneReponse": "Master Chief",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 42,
+    "intitule": "Quelle est la célèbre licence de jeux d'horreur de Capcom ?",
+    "listeReponses": ["Resident Evil", "Silent Hill", "Dead Space", "Five Night at Freddy's"],
+    "bonneReponse": "Resident Evil",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 43,
+    "intitule": "Quel jeu a été nommé Game of The Year durant les Game Awards 2022 ?",
+    "listeReponses": ["Elden Ring", "Baldur's Gate 3", "The Last of Us 2", "Grand Theft Auto 5"],
+    "bonneReponse": "Elden Ring",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 44,
+    "intitule": "Dans lequel de ces jeux n'est-il pas possible de jouer Link officiellement ?",
+    "listeReponses": ["Fortnite", "Soul Calibur 2", "Mario Kart 8", "Super Smash Bros Melee"],
+    "bonneReponse": "Fortnite",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 45,
+    "intitule": "Dans la licence Metroid, comment s'appelle la combinaison qui permet à Samus de résister à la chaleur ?",
+    "listeReponses": ["Varia Suit", "Gravity Suit", "Fusion Suit", "Power Suit"],
+    "bonneReponse": "Varia Suit",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 46,
+    "intitule": "Comment s'appelle l'assistant du Professeur Layton ?",
+    "listeReponses": ["Luke", "Edward", "Hershell", "Leo"],
+    "bonneReponse": "Luke",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 47,
+    "intitule": "Quel est le Monster emblématique de Monster Hunter ?",
+    "listeReponses": ["Rathalos", "Rathian", "Nergigante", "Fatalis"],
+    "bonneReponse": "Rathalos",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 48,
+    "intitule": "De quel jeu Nier est-il la suite ?",
+    "listeReponses": ["Drakengard", "Nier Automata", "Drakengard 3", "Nier: Reincarnation"],
+    "bonneReponse": "Drakengard",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 49,
+    "intitule": "Qui est le Roi Lich dans l'univers de Warcraft ?",
+    "listeReponses": ["Arthas Menethil", "Anduin Wrynn", "Uther Lightbringer", "Garrosh Hurlenfer"],
+    "bonneReponse": "Arthas Menethil",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 50,
+    "intitule": "Comment s'appelle l'épée de Shulk dans Xenoblade Chronicles ?",
+    "listeReponses": ["Monado", "Aegis", "Excalibur", "Xeno-Aegis"],
+    "bonneReponse": "Monado",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 51,
+    "intitule": "Dans la conception de jeu vidéo, quel est le terme pour définir les zones de collision ?",
+    "listeReponses": ["Hit Box", "Collision Zone", "Body", "Hit Zone"],
+    "bonneReponse": "Hit Box",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 52,
+    "intitule": "Qui est Dracula dans Castlevania Lament of Innocence ?",
+    "listeReponses": ["Mathias Cronqvist", "Vlad Tepes", "Gabriel Belmont", "La Mort"],
+    "bonneReponse": "Mathias Cronqvist",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  }
+]

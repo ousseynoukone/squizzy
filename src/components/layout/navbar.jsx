@@ -26,7 +26,7 @@ export default function NavBar() {
 
   return (
     <header className="w-full sticky top-0 z-40 bg-white/10 backdrop-blur-md shadow-sm">
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4">
+      <div className="mx-auto flex w-full max-w-6xl items-center justify-between p-2">
         <NavLink
           to="/"
           className="flex items-center gap-3 rounded-full border border-white/50 bg-white px-3 py-2 shadow-sm"

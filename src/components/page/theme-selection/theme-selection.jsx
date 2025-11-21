@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { themes } from "../../../data/themes.js"
+import { themes } from "../../../data/services/themes.js"
 
 const accentColors = [
   "from-[#FFEAB7] to-[#FFEAB7]",
@@ -17,7 +17,7 @@ export default function ThemeSelection() {
   }
 
   return (
-    <div className="pb-16 mt-10">
+    <div className="pb-16 mt-6">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4">
         <div className="flex flex-col items-center text-center gap-3">
           <h1 className="text-3xl font-semibold text-slate-900">

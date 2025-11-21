@@ -1,7 +1,6 @@
-import { getQuizByThemeId } from '../../../data/quizzes.js'
-import { generateQuestionList } from '../../../data/questions.js'
+import { getQuizByThemeId } from '../../../data/services/quizzes.js'
+import { generateQuestionList } from '../../../data/services/questions.js'
 import { useLocation ,useNavigate} from 'react-router-dom'
-import { useEffect } from 'react'
 
 
 
@@ -45,8 +44,10 @@ export default function DifficultySelect() {
   theme = useLocation().state.theme
 
 
-
-  if (!theme) return null
+  if (!theme){
+    console.error("Thème non fourni pour la sélection de la difficulté.")
+    return null
+  } 
 
   const quiz = getQuizByThemeId(theme.id)
   if (!quiz) return null
@@ -73,7 +74,7 @@ export default function DifficultySelect() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-10">
+    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-6">
       <main className="mx-auto flex w-full max-w-4xl flex-col items-center gap-8 px-4 text-center">
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-semibold text-slate-900">{theme.titre}</h1>

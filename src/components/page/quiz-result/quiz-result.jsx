@@ -22,7 +22,7 @@ export default function QuizResult() {
   const evaluation = getEvaluation(data.scorePercentage)
 
   return (
-    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-10">
+    <div className="min-h-screen bg-[#F4F6FB] pb-16 mt-6">
       <main className="mx-auto flex w-full max-w-5xl flex-col items-center gap-10 px-4 text-center">
         <section className="w-full rounded-[32px] border border-[#E6ECF5] bg-white px-8 py-10 shadow-[0_18px_40px_rgba(15,23,42,0.08)]">
           <p className="text-sm uppercase tracking-[0.4em] text-[#A0AEC0]">Résultats</p>
@@ -80,7 +80,7 @@ export default function QuizResult() {
             ))}
           </div>
 
-          <div className="mt-10 flex justify-center gap-4">
+          <div className="mt-6 flex justify-center gap-4">
             <button
               type="button"
               onClick={onReplay}
