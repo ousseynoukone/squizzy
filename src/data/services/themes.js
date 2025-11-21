@@ -31,3 +31,13 @@ export const themes = [
   },
   
 ]
+
+
+
+// Fonction pour obtenir un théme par id
+export function getQuizByThemeId(themeId) {
+  let theme= themes.find(q => q.id === themeId)
+  return theme || null
+}
+
+

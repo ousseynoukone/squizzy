@@ -1,7 +1,8 @@
-import { getQuizByThemeId } from '../../../data/services/quizzes.js'
+import { getQuizByThemeId } from '../../../data/services/themes.js'
 import { generateQuestionList } from '../../../data/services/questions.js'
 import { useLocation ,useNavigate} from 'react-router-dom'
 
+import { questionDistribution , questionChronos, difficulties} from '../../../data/services/quiz_config.js'
 
 
 
@@ -23,19 +24,6 @@ const difficultyStyles = [
   },
 ]
 
-
-
-const questionDistribution = [
-  { facile: 5, moyen: 3, difficile: 2 },
-  { facile: 3, moyen: 5, difficile: 2 },
-  { facile: 2, moyen: 3, difficile: 5 },
-]
-
-const questionChronos = {
-  Facile: 30,
-  Moyen: 25,
-  Difficile: 20,
-}
 
 export default function DifficultySelect() {
   const navigator = useNavigate()
@@ -88,7 +76,7 @@ export default function DifficultySelect() {
         </div>
 
         <section className="flex w-full flex-col gap-4 md:flex-row">
-          {quiz.difficulteQuizz.map((difficulty, index) => {
+          {difficulties.map((difficulty, index) => {
             const style = difficultyStyles[index]
             const distribution = questionDistribution[index]
             const totalTime = calculateTotalTime(index)
@@ -99,9 +87,8 @@ export default function DifficultySelect() {
                 onClick={() => handleDifficultyClick(index)}
                 className={`group flex flex-1 flex-col items-center rounded-3xl border ${style.border} ${style.bg} px-6 py-10 text-center shadow-[0_18px_35px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_24px_45px_rgba(15,23,42,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2563EB40]`}
               >
-                <span className={`text-lg font-semibold ${style.textColor}`}>{difficulty.titre}</span>
+                <span className={`text-lg font-semibold ${style.textColor}`}>{difficulty}</span>
                 <div className="mt-3 space-y-1 text-sm text-slate-600">
-                  <p>{difficulty.nbrPoints} points possibles</p>
                   <p>Temps: {formatTime(totalTime)}</p>
                   <p className="text-xs text-slate-500">
                     {distribution.facile}F / {distribution.moyen}M / {distribution.difficile}D
