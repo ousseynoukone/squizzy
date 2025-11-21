@@ -13,18 +13,18 @@ export const quizzes = [
     difficulteQuizz: [
       {
         titre: "Facile",
-        nbrPoints: 100, // Points totaux possibles
-        chrono: 600, // 10 minutes en secondes
+        nbrPoints: 100, 
+        chrono: 0, 
       },
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480, // 8 minutes
+        chrono: 0, 
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360, // 6 minutes
+        chrono: 0, 
       },
     ],
   },
@@ -37,17 +37,17 @@ export const quizzes = [
       {
         titre: "Facile",
         nbrPoints: 100,
-        chrono: 600,
+        chrono: 0,
       },
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480,
+        chrono: 0,
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360,
+        chrono: 0,
       },
     ],
   },
@@ -60,17 +60,17 @@ export const quizzes = [
       {
         titre: "Facile",
         nbrPoints: 100,
-        chrono: 600,
+        chrono: 0,
       },
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480,
+        chrono: 0,
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360,
+        chrono: 0,
       },
     ],
   },
@@ -83,17 +83,17 @@ export const quizzes = [
       {
         titre: "Facile",
         nbrPoints: 100,
-        chrono: 600,
+        chrono: 0,
       },
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480,
+        chrono: 0,
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360,
+        chrono: 0,
       },
     ],
   },
@@ -106,17 +106,17 @@ export const quizzes = [
       {
         titre: "Facile",
         nbrPoints: 100,
-        chrono: 600,
+        chrono: 0,
       },
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480,
+        chrono: 0,
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360,
+        chrono: 0,
       },
     ],
   },
@@ -133,12 +133,12 @@ export const quizzes = [
       {
         titre: "Normal",
         nbrPoints: 200,
-        chrono: 480,
+        chrono: 0,
       },
       {
         titre: "Difficile",
         nbrPoints: 300,
-        chrono: 360,
+        chrono: 0,
       },
     ],
   },
