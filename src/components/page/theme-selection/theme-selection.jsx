@@ -9,7 +9,7 @@ const accentColors = [
   "from-[#FFEAB7] to-[#FFEAB7]",
 ]
 
-Test();
+  Test()
 
 export default function ThemeSelection({ onThemeSelect }) {
   return (

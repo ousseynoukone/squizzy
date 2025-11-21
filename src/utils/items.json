@@ -1,0 +1,27 @@
+{
+    "jeux video": [
+    {
+        "id": 1,
+        "Intitule": "Quelle entreprise est propriétaire de Super Mario ? ",
+        "Reponses": [
+          "Nintendo",
+          "Sega",
+          "Microsoft",
+          "Sony"
+        ],
+        "Bonne_Reponse": "Nintendo",
+        "Difficulte": "Facile"
+    },
+    {
+        "id": 2,
+        "Intitule": "Quel est le plus grand océan du monde ?",
+        "Reponses": [
+          "Océan Atlantique",
+          "Océan Indien",
+          "Océan Pacifique",
+          "Océan Arctique"
+        ],
+        "Bonne_Reponse": "Océan Pacifique",
+        "Difficulte": "Moyen"
+    }
+]}
