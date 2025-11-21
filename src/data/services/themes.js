@@ -29,7 +29,11 @@ export const themes = [
     titre: "Jeu Vidéo",
     description : "Plongez dans l'univers des jeux vidéo: histoire, genres, consoles et icônes du gaming.",
   },
-  
+   {
+    id: 7,
+    titre: "Anglais Général",
+    description : "Vocabulaire, grammaire, expressions idiomatiques et culture anglophone pour tous les niveaux.",
+  },
 ]
 
 

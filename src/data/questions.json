@@ -537,5 +537,205 @@
     "bonneReponse": "Mathias Cronqvist",
     "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
     "themeId": 6
+  },
+    {
+    "id": 53,
+    "intitule": "Comment dit-on « bonjour » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Hello", "Goodbye", "Please", "Thanks"],
+    "bonneReponse": "Hello",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 54,
+    "intitule": "Que signifie « cat » ?",
+    "themeId": 7,
+    "listeReponses": ["Chat", "Chien", "Oiseau", "Poisson"],
+    "bonneReponse": "Chat",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 55,
+    "intitule": "Que veut dire « thank you » ?",
+    "themeId": 7,
+    "listeReponses": ["Merci", "Bonjour", "Pardon", "Salut"],
+    "bonneReponse": "Merci",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 56,
+    "intitule": "Comment dit-on « rouge » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Red", "Blue", "Green", "Yellow"],
+    "bonneReponse": "Red",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 57,
+    "intitule": "Quel mot signifie « courir » ?",
+    "themeId": 7,
+    "listeReponses": ["Run", "Eat", "Sleep", "Read"],
+    "bonneReponse": "Run",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 58,
+    "intitule": "Comment dit-on « je m'appelle » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["My name is", "I am from", "I have", "I live"],
+    "bonneReponse": "My name is",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 59,
+    "intitule": "Comment dit-on « maison » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["House", "Home", "Room", "Flat"],
+    "bonneReponse": "House",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 60,
+    "intitule": "Que veut dire « water » ?",
+    "themeId": 7,
+    "listeReponses": ["Eau", "Feu", "Vent", "Terre"],
+    "bonneReponse": "Eau",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 61,
+    "intitule": "Comment dit-on « livre » (objet) ?",
+    "themeId": 7,
+    "listeReponses": ["Book", "Table", "Pen", "Bag"],
+    "bonneReponse": "Book",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 62,
+    "intitule": "Quelle est la traduction de « good night » ?",
+    "themeId": 7,
+    "listeReponses": ["Bonne nuit", "Bonjour", "Bravo", "Merci"],
+    "bonneReponse": "Bonne nuit",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 63,
+    "intitule": "Quelle est la traduction du verbe « to understand » ?",
+    "themeId": 7,
+    "listeReponses": ["Comprendre", "Apprendre", "Entendre", "Regarder"],
+    "bonneReponse": "Comprendre",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 64,
+    "intitule": "Quelle préposition convient dans « I was born ___ 2001 » ?",
+    "themeId": 7,
+    "listeReponses": ["in", "on", "at", "from"],
+    "bonneReponse": "in",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 65,
+    "intitule": "Comment traduit-on « quickly » ?",
+    "themeId": 7,
+    "listeReponses": ["Rapidement", "Calmement", "Doucement", "Facilement"],
+    "bonneReponse": "Rapidement",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 66,
+    "intitule": "Quel est le pluriel de « child » ?",
+    "themeId": 7,
+    "listeReponses": ["Children", "Childs", "Childes", "Childer"],
+    "bonneReponse": "Children",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 67,
+    "intitule": "Que signifie « to improve » ?",
+    "themeId": 7,
+    "listeReponses": ["Améliorer", "Réparer", "Supprimer", "Changer"],
+    "bonneReponse": "Améliorer",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 68,
+    "intitule": "Quel mot correspond à « métier » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Job", "Hobby", "Lesson", "Travel"],
+    "bonneReponse": "Job",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 69,
+    "intitule": "Comment dit-on « cependant » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["However", "Because", "Therefore", "Although"],
+    "bonneReponse": "However",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 70,
+    "intitule": "Comment traduit-on « I would like » ?",
+    "themeId": 7,
+    "listeReponses": ["J’aimerais", "J’ai aimé", "Je voudrais savoir", "Je veux"],
+    "bonneReponse": "J’aimerais",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 71,
+    "intitule": "Que signifie « actually » ?",
+    "themeId": 7,
+    "listeReponses": ["En réalité", "Actuellement", "Facilement", "Finalement"],
+    "bonneReponse": "En réalité",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 72,
+    "intitule": "Comment dit-on « j’ai perdu mes clés » ?",
+    "themeId": 7,
+    "listeReponses": ["I lost my keys", "I lose my keys", "I have lose my keys", "I missing my keys"],
+    "bonneReponse": "I lost my keys",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 73,
+    "intitule": "Quelle forme verbale exprime une hypothèse irréelle au présent ?",
+    "themeId": 7,
+    "listeReponses": ["Conditionnel + prétérit", "Passé simple", "Be going to", "Présent perfect"],
+    "bonneReponse": "Conditionnel + prétérit",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 60 }
+  },
+  {
+    "id": 74,
+    "intitule": "Quel est le sens exact du mot « thorough » ?",
+    "themeId": 7,
+    "listeReponses": ["Minutieux", "Rapide", "Ennuyeux", "Approximatif"],
+    "bonneReponse": "Minutieux",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 60 }
+  },
+  {
+    "id": 75,
+    "intitule": "Quelle construction est correcte ?",
+    "themeId": 7,
+    "listeReponses": ["I wish I had more time", "I wish I have more time", "I wish I will have more time", "I wish I having more time"],
+    "bonneReponse": "I wish I had more time",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 60 }
+  },
+  {
+    "id": 76,
+    "intitule": "Que signifie l’expression « to beat around the bush » ?",
+    "themeId": 7,
+    "listeReponses": ["Éviter le sujet", "Raconter une histoire", "Être trop direct", "Ne rien comprendre"],
+    "bonneReponse": "Éviter le sujet",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 60 }
+  },
+  {
+    "id": 77,
+    "intitule": "Quelle est la traduction la plus précise de « resilience » ?",
+    "themeId": 7,
+    "listeReponses": ["Capacité à surmonter les difficultés", "Persistance", "Confiance en soi", "Force mentale"],
+    "bonneReponse": "Capacité à surmonter les difficultés",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 60 }
   }
 ]
