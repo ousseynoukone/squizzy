@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Quel artiste a peint la Joconde ?",
+    "Reponses": [
+      "Léonard de Vinci",
+      "Michel-Ange",
+      "Raphaël",
+      "Van Gogh"
+    ],
+    "Bonne_Reponse": "Léonard de Vinci",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel mouvement artistique est associé à Monet ?",
+    "Reponses": [
+      "Impressionnisme",
+      "Cubisme",
+      "Surréalisme",
+      "Baroque"
+    ],
+    "Bonne_Reponse": "Impressionnisme",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel peintre est connu pour ses tournesols ?",
+    "Reponses": [
+      "Van Gogh",
+      "Rembrandt",
+      "Picasso",
+      "Dali"
+    ],
+    "Bonne_Reponse": "Van Gogh",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quel artiste a peint « Guernica » ?",
+    "Reponses": [
+      "Picasso",
+      "Matisse",
+      "Dali",
+      "Chagall"
+    ],
+    "Bonne_Reponse": "Picasso",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel est l’art de façonner l’argile ?",
+    "Reponses": [
+      "Poterie",
+      "Peinture",
+      "Sculpture",
+      "Gravure"
+    ],
+    "Bonne_Reponse": "Poterie",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "De quelle couleur est le ciel dans « La Nuit étoilée » de Van Gogh ?",
+    "Reponses": [
+      "Bleu",
+      "Rouge",
+      "Orange",
+      "Vert"
+    ],
+    "Bonne_Reponse": "Bleu",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel artiste est célèbre pour ses autoportraits ?",
+    "Reponses": [
+      "Frida Kahlo",
+      "Monet",
+      "Warhol",
+      "Miro"
+    ],
+    "Bonne_Reponse": "Frida Kahlo",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Dans quel musée se trouve la Joconde ?",
+    "Reponses": [
+      "Louvre",
+      "Tate Modern",
+      "Prado",
+      "MoMA"
+    ],
+    "Bonne_Reponse": "Louvre",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel peintre est connu pour ses nymphéas ?",
+    "Reponses": [
+      "Monet",
+      "Renoir",
+      "Cézanne",
+      "Degas"
+    ],
+    "Bonne_Reponse": "Monet",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel outil utilise un sculpteur ?",
+    "Reponses": [
+      "Ciseau",
+      "Pinceau",
+      "Stylet",
+      "Spatule"
+    ],
+    "Bonne_Reponse": "Ciseau",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel mouvement est associé à Salvador Dali ?",
+    "Reponses": [
+      "Surréalisme",
+      "Cubisme",
+      "Romantisme",
+      "Expressionnisme"
+    ],
+    "Bonne_Reponse": "Surréalisme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel artiste a peint « La Naissance de Vénus » ?",
+    "Reponses": [
+      "Botticelli",
+      "Titien",
+      "Raphaël",
+      "Caravage"
+    ],
+    "Bonne_Reponse": "Botticelli",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel sculpteur est l’auteur du Penseur ?",
+    "Reponses": [
+      "Rodin",
+      "Michel-Ange",
+      "Donatello",
+      "Bernini"
+    ],
+    "Bonne_Reponse": "Rodin",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel est le principal matériau du bronze ?",
+    "Reponses": [
+      "Cuivre",
+      "Fer",
+      "Argent",
+      "Or"
+    ],
+    "Bonne_Reponse": "Cuivre",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel artiste est un maître du pointillisme ?",
+    "Reponses": [
+      "Georges Seurat",
+      "Kandinsky",
+      "Manet",
+      "Goya"
+    ],
+    "Bonne_Reponse": "Georges Seurat",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel peintre est associé au cubisme ?",
+    "Reponses": [
+      "Picasso",
+      "Van Gogh",
+      "Dali",
+      "Matisse"
+    ],
+    "Bonne_Reponse": "Picasso",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quel pays a vu naître l’art de la calligraphie arabe ?",
+    "Reponses": [
+      "Arabie",
+      "Égypte",
+      "Iran",
+      "Irak"
+    ],
+    "Bonne_Reponse": "Arabie",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel bâtiment emblématique a été peint par Hopper ?",
+    "Reponses": [
+      "Nighthawks",
+      "Empire State",
+      "Flatiron",
+      "Metropolitan"
+    ],
+    "Bonne_Reponse": "Nighthawks",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quel artiste est connu pour ses boîtes de soupe Campbell ?",
+    "Reponses": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Basquiat",
+      "Haring"
+    ],
+    "Bonne_Reponse": "Andy Warhol",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel mouvement vise à représenter le subconscient ?",
+    "Reponses": [
+      "Surréalisme",
+      "Baroque",
+      "Classique",
+      "Rococo"
+    ],
+    "Bonne_Reponse": "Surréalisme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel peintre flamand a réalisé « Le Jardin des délices » ?",
+    "Reponses": [
+      "Hieronymus Bosch",
+      "Bruegel",
+      "Van Eyck",
+      "Rubens"
+    ],
+    "Bonne_Reponse": "Hieronymus Bosch",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel artiste italien a peint « La Tempête » ?",
+    "Reponses": [
+      "Giorgione",
+      "Titien",
+      "Tintoret",
+      "Giotto"
+    ],
+    "Bonne_Reponse": "Giorgione",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel artiste est associé au suprématisme ?",
+    "Reponses": [
+      "Kazimir Malevitch",
+      "Kandinsky",
+      "Mondrian",
+      "Rodtchenko"
+    ],
+    "Bonne_Reponse": "Kazimir Malevitch",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel sculpteur a sculpté « Ecce Homo » ?",
+    "Reponses": [
+      "Antoni Gaudí",
+      "El Greco",
+      "Miguel Blay",
+      "Juan Muñoz"
+    ],
+    "Bonne_Reponse": "Miguel Blay",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "De quelle époque date la fresque de Lascaux ?",
+    "Reponses": [
+      "Préhistoire",
+      "Antiquité",
+      "Moyen Âge",
+      "Renaissance"
+    ],
+    "Bonne_Reponse": "Préhistoire",
+    "Difficulte": "Difficile"
+  }
+]

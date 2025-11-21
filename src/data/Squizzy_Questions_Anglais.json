@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Comment dit-on « bonjour » en anglais ?",
+    "Reponses": [
+      "Hello",
+      "Goodbye",
+      "Please",
+      "Thanks"
+    ],
+    "Bonne_Reponse": "Hello",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Que signifie « cat » ?",
+    "Reponses": [
+      "Chat",
+      "Chien",
+      "Oiseau",
+      "Poisson"
+    ],
+    "Bonne_Reponse": "Chat",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Que veut dire « thank you » ?",
+    "Reponses": [
+      "Merci",
+      "Bonjour",
+      "Pardon",
+      "Salut"
+    ],
+    "Bonne_Reponse": "Merci",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Comment dit-on « rouge » en anglais ?",
+    "Reponses": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "Bonne_Reponse": "Red",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel mot signifie « courir » ?",
+    "Reponses": [
+      "Run",
+      "Eat",
+      "Sleep",
+      "Read"
+    ],
+    "Bonne_Reponse": "Run",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Comment dit-on « je m'appelle » en anglais ?",
+    "Reponses": [
+      "My name is",
+      "I am from",
+      "I have",
+      "I live"
+    ],
+    "Bonne_Reponse": "My name is",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Comment dit-on « maison » en anglais ?",
+    "Reponses": [
+      "House",
+      "Home",
+      "Room",
+      "Flat"
+    ],
+    "Bonne_Reponse": "House",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Que veut dire « water » ?",
+    "Reponses": [
+      "Eau",
+      "Feu",
+      "Vent",
+      "Terre"
+    ],
+    "Bonne_Reponse": "Eau",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Comment dit-on « livre » (objet) ?",
+    "Reponses": [
+      "Book",
+      "Table",
+      "Pen",
+      "Bag"
+    ],
+    "Bonne_Reponse": "Book",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quelle est la traduction de « good night » ?",
+    "Reponses": [
+      "Bonne nuit",
+      "Bonjour",
+      "Bravo",
+      "Merci"
+    ],
+    "Bonne_Reponse": "Bonne nuit",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quelle est la traduction du verbe « to understand » ?",
+    "Reponses": [
+      "Comprendre",
+      "Apprendre",
+      "Entendre",
+      "Regarder"
+    ],
+    "Bonne_Reponse": "Comprendre",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quelle préposition convient dans « I was born ___ 2001 » ?",
+    "Reponses": [
+      "in",
+      "on",
+      "at",
+      "from"
+    ],
+    "Bonne_Reponse": "in",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Comment traduit-on « quickly » ?",
+    "Reponses": [
+      "Rapidement",
+      "Calmement",
+      "Doucement",
+      "Facilement"
+    ],
+    "Bonne_Reponse": "Rapidement",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel est le pluriel de « child » ?",
+    "Reponses": [
+      "Children",
+      "Childs",
+      "Childes",
+      "Childer"
+    ],
+    "Bonne_Reponse": "Children",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Que signifie « to improve » ?",
+    "Reponses": [
+      "Améliorer",
+      "Réparer",
+      "Supprimer",
+      "Changer"
+    ],
+    "Bonne_Reponse": "Améliorer",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel mot correspond à « métier » en anglais ?",
+    "Reponses": [
+      "Job",
+      "Hobby",
+      "Lesson",
+      "Travel"
+    ],
+    "Bonne_Reponse": "Job",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Comment dit-on « cependant » en anglais ?",
+    "Reponses": [
+      "However",
+      "Because",
+      "Therefore",
+      "Although"
+    ],
+    "Bonne_Reponse": "However",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Comment traduit-on « I would like » ?",
+    "Reponses": [
+      "J’aimerais",
+      "J’ai aimé",
+      "Je voudrais savoir",
+      "Je veux"
+    ],
+    "Bonne_Reponse": "J’aimerais",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Que signifie « actually » ?",
+    "Reponses": [
+      "En réalité",
+      "Actuellement",
+      "Facilement",
+      "Finalement"
+    ],
+    "Bonne_Reponse": "En réalité",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Comment dit-on « j’ai perdu mes clés » ?",
+    "Reponses": [
+      "I lost my keys",
+      "I lose my keys",
+      "I have lose my keys",
+      "I missing my keys"
+    ],
+    "Bonne_Reponse": "I lost my keys",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quelle forme verbale exprime une hypothèse irréelle au présent ?",
+    "Reponses": [
+      "Conditionnel + prétérit",
+      "Passé simple",
+      "Be going to",
+      "Présent perfect"
+    ],
+    "Bonne_Reponse": "Conditionnel + prétérit",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel est le sens exact du mot « thorough » ?",
+    "Reponses": [
+      "Minutieux",
+      "Rapide",
+      "Ennuyeux",
+      "Approximatif"
+    ],
+    "Bonne_Reponse": "Minutieux",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quelle construction est correcte ?",
+    "Reponses": [
+      "I wish I had more time",
+      "I wish I have more time",
+      "I wish I will have more time",
+      "I wish I having more time"
+    ],
+    "Bonne_Reponse": "I wish I had more time",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Que signifie l’expression « to beat around the bush » ?",
+    "Reponses": [
+      "Éviter le sujet",
+      "Raconter une histoire",
+      "Être trop direct",
+      "Ne rien comprendre"
+    ],
+    "Bonne_Reponse": "Éviter le sujet",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quelle est la traduction la plus précise de « resilience » ?",
+    "Reponses": [
+      "Capacité à surmonter les difficultés",
+      "Persistance",
+      "Confiance en soi",
+      "Force mentale"
+    ],
+    "Bonne_Reponse": "Capacité à surmonter les difficultés",
+    "Difficulte": "Difficile"
+  }
+]

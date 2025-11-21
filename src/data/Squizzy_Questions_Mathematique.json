@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Combien font 7 + 5 ?",
+    "Reponses": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "Bonne_Reponse": "12",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel est le double de 9 ?",
+    "Reponses": [
+      "18",
+      "16",
+      "20",
+      "14"
+    ],
+    "Bonne_Reponse": "18",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quelle forme a trois côtés ?",
+    "Reponses": [
+      "Triangle",
+      "Carré",
+      "Rectangle",
+      "Cercle"
+    ],
+    "Bonne_Reponse": "Triangle",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Combien font 15 - 6 ?",
+    "Reponses": [
+      "9",
+      "11",
+      "7",
+      "6"
+    ],
+    "Bonne_Reponse": "9",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel est le résultat de 3 × 4 ?",
+    "Reponses": [
+      "12",
+      "9",
+      "16",
+      "8"
+    ],
+    "Bonne_Reponse": "12",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel nombre est pair ?",
+    "Reponses": [
+      "8",
+      "7",
+      "9",
+      "11"
+    ],
+    "Bonne_Reponse": "8",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Combien font 100 – 1 ?",
+    "Reponses": [
+      "99",
+      "100",
+      "98",
+      "101"
+    ],
+    "Bonne_Reponse": "99",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel est le carré de 5 ?",
+    "Reponses": [
+      "25",
+      "10",
+      "15",
+      "20"
+    ],
+    "Bonne_Reponse": "25",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Combien mesure un angle droit ?",
+    "Reponses": [
+      "90°",
+      "45°",
+      "180°",
+      "360°"
+    ],
+    "Bonne_Reponse": "90°",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel chiffre représente les dizaines dans 42 ?",
+    "Reponses": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "Bonne_Reponse": "4",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel est le résultat de 12 × 12 ?",
+    "Reponses": [
+      "144",
+      "124",
+      "132",
+      "156"
+    ],
+    "Bonne_Reponse": "144",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quelle fraction est équivalente à 1/2 ?",
+    "Reponses": [
+      "2/4",
+      "3/4",
+      "1/3",
+      "4/3"
+    ],
+    "Bonne_Reponse": "2/4",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quelle est la racine carrée de 81 ?",
+    "Reponses": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ],
+    "Bonne_Reponse": "9",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Combien font 3,14 × 2 ?",
+    "Reponses": [
+      "6,28",
+      "3,14",
+      "4,28",
+      "7,14"
+    ],
+    "Bonne_Reponse": "6,28",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel est le périmètre d’un carré de côté 5 ?",
+    "Reponses": [
+      "20",
+      "25",
+      "15",
+      "10"
+    ],
+    "Bonne_Reponse": "20",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quelle est la valeur de x dans 3x = 27 ?",
+    "Reponses": [
+      "9",
+      "3",
+      "6",
+      "12"
+    ],
+    "Bonne_Reponse": "9",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quel est le volume d’un cube d’arête 3 ?",
+    "Reponses": [
+      "27",
+      "9",
+      "18",
+      "36"
+    ],
+    "Bonne_Reponse": "27",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel nombre suit la suite : 2, 4, 8, 16, ... ?",
+    "Reponses": [
+      "32",
+      "20",
+      "30",
+      "24"
+    ],
+    "Bonne_Reponse": "32",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quel est le pourcentage de 50 sur 200 ?",
+    "Reponses": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "Bonne_Reponse": "25%",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel est le résultat de 7² + 2 ?",
+    "Reponses": [
+      "51",
+      "16",
+      "9",
+      "49"
+    ],
+    "Bonne_Reponse": "51",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel est le discriminant de l’équation x² - 4x + 1 ?",
+    "Reponses": [
+      "12",
+      "16",
+      "4",
+      "8"
+    ],
+    "Bonne_Reponse": "12",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel est le résultat de ln(e³) ?",
+    "Reponses": [
+      "3",
+      "1",
+      "e",
+      "9"
+    ],
+    "Bonne_Reponse": "3",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quelle est la dérivée de 5x² ?",
+    "Reponses": [
+      "10x",
+      "5x",
+      "2x",
+      "15x"
+    ],
+    "Bonne_Reponse": "10x",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quelle est l’aire d’un cercle de rayon 7 ?",
+    "Reponses": [
+      "49π",
+      "14π",
+      "28π",
+      "7π"
+    ],
+    "Bonne_Reponse": "49π",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quelle est la limite de 1/n lorsque n tend vers l’infini ?",
+    "Reponses": [
+      "0",
+      "1",
+      "∞",
+      "Indéterminé"
+    ],
+    "Bonne_Reponse": "0",
+    "Difficulte": "Difficile"
+  }
+]

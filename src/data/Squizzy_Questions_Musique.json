@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Quel est l'instrument principal de Mozart dans son enfance ?",
+    "Reponses": [
+      "Piano",
+      "Violon",
+      "Flûte",
+      "Orgue"
+    ],
+    "Bonne_Reponse": "Piano",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel artiste est connu pour la chanson « Thriller » ?",
+    "Reponses": [
+      "Michael Jackson",
+      "Prince",
+      "Elvis Presley",
+      "Stevie Wonder"
+    ],
+    "Bonne_Reponse": "Michael Jackson",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel est l'instrument typique du rock ?",
+    "Reponses": [
+      "Guitare électrique",
+      "Harpe",
+      "Trompette",
+      "Violon"
+    ],
+    "Bonne_Reponse": "Guitare électrique",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quel groupe a chanté « Bohemian Rhapsody » ?",
+    "Reponses": [
+      "Queen",
+      "The Beatles",
+      "Nirvana",
+      "Pink Floyd"
+    ],
+    "Bonne_Reponse": "Queen",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel genre musical vient de la Jamaïque ?",
+    "Reponses": [
+      "Reggae",
+      "Rock",
+      "Jazz",
+      "Country"
+    ],
+    "Bonne_Reponse": "Reggae",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel artiste a chanté « Shape of You » ?",
+    "Reponses": [
+      "Ed Sheeran",
+      "Adele",
+      "Bruno Mars",
+      "Shawn Mendes"
+    ],
+    "Bonne_Reponse": "Ed Sheeran",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel instrument a des touches blanches et noires ?",
+    "Reponses": [
+      "Piano",
+      "Guitare",
+      "Batterie",
+      "Flûte"
+    ],
+    "Bonne_Reponse": "Piano",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel groupe est connu pour « Smells Like Teen Spirit » ?",
+    "Reponses": [
+      "Nirvana",
+      "Queen",
+      "AC/DC",
+      "Green Day"
+    ],
+    "Bonne_Reponse": "Nirvana",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel style musical est associé à Beethoven ?",
+    "Reponses": [
+      "Classique",
+      "Jazz",
+      "Rap",
+      "Blues"
+    ],
+    "Bonne_Reponse": "Classique",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel artiste est surnommé « The King » ?",
+    "Reponses": [
+      "Elvis Presley",
+      "Frank Sinatra",
+      "David Bowie",
+      "Bob Dylan"
+    ],
+    "Bonne_Reponse": "Elvis Presley",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel instrument utilise une anche ?",
+    "Reponses": [
+      "Clarinette",
+      "Guitare",
+      "Piano",
+      "Basse"
+    ],
+    "Bonne_Reponse": "Clarinette",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel compositeur est l’auteur du Requiem inachevé ?",
+    "Reponses": [
+      "Mozart",
+      "Bach",
+      "Vivaldi",
+      "Schubert"
+    ],
+    "Bonne_Reponse": "Mozart",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel groupe est à l'origine de l'album « Dark Side of the Moon » ?",
+    "Reponses": [
+      "Pink Floyd",
+      "Queen",
+      "The Rolling Stones",
+      "Genesis"
+    ],
+    "Bonne_Reponse": "Pink Floyd",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel artiste est considéré comme le pionnier du jazz ?",
+    "Reponses": [
+      "Louis Armstrong",
+      "Miles Davis",
+      "Duke Ellington",
+      "John Coltrane"
+    ],
+    "Bonne_Reponse": "Louis Armstrong",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel est le style musical de Chopin ?",
+    "Reponses": [
+      "Romantique",
+      "Baroque",
+      "Classique",
+      "Moderne"
+    ],
+    "Bonne_Reponse": "Romantique",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel métal est associé au groupe Metallica ?",
+    "Reponses": [
+      "Heavy Metal",
+      "Black Metal",
+      "Speed Metal",
+      "Prog Metal"
+    ],
+    "Bonne_Reponse": "Heavy Metal",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Dans quel pays est né le tango ?",
+    "Reponses": [
+      "Argentine",
+      "Brésil",
+      "Cuba",
+      "Mexique"
+    ],
+    "Bonne_Reponse": "Argentine",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel compositeur a écrit « Le Sacre du printemps » ?",
+    "Reponses": [
+      "Stravinsky",
+      "Debussy",
+      "Brahms",
+      "Mahler"
+    ],
+    "Bonne_Reponse": "Stravinsky",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Qui est l’interprète de la chanson « Rolling in the Deep » ?",
+    "Reponses": [
+      "Adele",
+      "Beyoncé",
+      "Rihanna",
+      "Dua Lipa"
+    ],
+    "Bonne_Reponse": "Adele",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel instrument est au centre du flamenco ?",
+    "Reponses": [
+      "Guitare espagnole",
+      "Castagnettes",
+      "Violon",
+      "Tambourin"
+    ],
+    "Bonne_Reponse": "Guitare espagnole",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel compositeur a introduit le dodécaphonisme ?",
+    "Reponses": [
+      "Arnold Schönberg",
+      "Ravel",
+      "Messiaen",
+      "Boulez"
+    ],
+    "Bonne_Reponse": "Arnold Schönberg",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel est le nom technique de la gamme utilisée dans le blues traditionnel ?",
+    "Reponses": [
+      "Gamme pentatonique",
+      "Gamme majeure",
+      "Gamme chromatique",
+      "Gamme lydienne"
+    ],
+    "Bonne_Reponse": "Gamme pentatonique",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel est le mouvement musical associé à Claude Debussy ?",
+    "Reponses": [
+      "Impressionnisme",
+      "Expressionnisme",
+      "Symbolisme",
+      "Romantisme tardif"
+    ],
+    "Bonne_Reponse": "Impressionnisme",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel groupe a popularisé la technique du « growl » dans le death metal ?",
+    "Reponses": [
+      "Death",
+      "Slayer",
+      "Iron Maiden",
+      "Judas Priest"
+    ],
+    "Bonne_Reponse": "Death",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel compositeur a écrit « L’Art de la fugue » ?",
+    "Reponses": [
+      "Jean-Sébastien Bach",
+      "Telemann",
+      "Händel",
+      "Haydn"
+    ],
+    "Bonne_Reponse": "Jean-Sébastien Bach",
+    "Difficulte": "Difficile"
+  }
+]

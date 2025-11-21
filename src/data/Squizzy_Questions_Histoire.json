@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "En quelle année a eu lieu la Révolution française ?",
+    "Reponses": [
+      "1789",
+      "1815",
+      "1848",
+      "1917"
+    ],
+    "Bonne_Reponse": "1789",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Qui était le premier empereur romain ?",
+    "Reponses": [
+      "Auguste",
+      "César",
+      "Néron",
+      "Trajan"
+    ],
+    "Bonne_Reponse": "Auguste",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel célèbre explorateur a découvert l’Amérique en 1492 ?",
+    "Reponses": [
+      "Christophe Colomb",
+      "Vasco de Gama",
+      "Marco Polo",
+      "Magellan"
+    ],
+    "Bonne_Reponse": "Christophe Colomb",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quel mur est tombé en 1989 ?",
+    "Reponses": [
+      "Mur de Berlin",
+      "Mur de Pékin",
+      "Mur de Varsovie",
+      "Mur de Prague"
+    ],
+    "Bonne_Reponse": "Mur de Berlin",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Qui était surnommé le Roi Soleil ?",
+    "Reponses": [
+      "Louis XIV",
+      "Louis XVI",
+      "Henri IV",
+      "Napoléon"
+    ],
+    "Bonne_Reponse": "Louis XIV",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel peuple a construit les pyramides de Gizeh ?",
+    "Reponses": [
+      "Les Égyptiens",
+      "Les Romains",
+      "Les Perses",
+      "Les Grecs"
+    ],
+    "Bonne_Reponse": "Les Égyptiens",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel pays a été dirigé par Adolf Hitler ?",
+    "Reponses": [
+      "Allemagne",
+      "Italie",
+      "Russie",
+      "Japon"
+    ],
+    "Bonne_Reponse": "Allemagne",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quelle reine d’Égypte est célèbre pour sa beauté ?",
+    "Reponses": [
+      "Cléopâtre",
+      "Nefertiti",
+      "Hatshepsout",
+      "Merneith"
+    ],
+    "Bonne_Reponse": "Cléopâtre",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel pays a construit la Grande Muraille ?",
+    "Reponses": [
+      "Chine",
+      "Inde",
+      "Corée",
+      "Japon"
+    ],
+    "Bonne_Reponse": "Chine",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Dans quel pays est né Gandhi ?",
+    "Reponses": [
+      "Inde",
+      "Pakistan",
+      "Sri Lanka",
+      "Népal"
+    ],
+    "Bonne_Reponse": "Inde",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel roi fut exécuté pendant la Révolution française ?",
+    "Reponses": [
+      "Louis XVI",
+      "Louis XV",
+      "Louis XIV",
+      "Charles X"
+    ],
+    "Bonne_Reponse": "Louis XVI",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel traité de 1919 met fin à la Première Guerre mondiale ?",
+    "Reponses": [
+      "Traité de Versailles",
+      "Traité de Paris",
+      "Traité de Rome",
+      "Traité de Londres"
+    ],
+    "Bonne_Reponse": "Traité de Versailles",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel pharaon est connu pour son tombeau découvert intact en 1922 ?",
+    "Reponses": [
+      "Toutankhamon",
+      "Ramsès II",
+      "Khéops",
+      "Akhenaton"
+    ],
+    "Bonne_Reponse": "Toutankhamon",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Qui a mené l’unification de l’Allemagne au XIXe siècle ?",
+    "Reponses": [
+      "Otto von Bismarck",
+      "Guillaume II",
+      "Goethe",
+      "Karl Marx"
+    ],
+    "Bonne_Reponse": "Otto von Bismarck",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quelle grande civilisation occupait le Machu Picchu ?",
+    "Reponses": [
+      "Les Incas",
+      "Les Mayas",
+      "Les Aztèques",
+      "Les Olmèques"
+    ],
+    "Bonne_Reponse": "Les Incas",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quelle guerre a opposé le Nord et le Sud des États‑Unis ?",
+    "Reponses": [
+      "Guerre de Sécession",
+      "Guerre d’Indépendance",
+      "Guerre froide",
+      "Guerre du Pacifique"
+    ],
+    "Bonne_Reponse": "Guerre de Sécession",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Qui a fondé l’Empire mongol au XIIIe siècle ?",
+    "Reponses": [
+      "Gengis Khan",
+      "Kubilaï Khan",
+      "Tamerlan",
+      "Batu"
+    ],
+    "Bonne_Reponse": "Gengis Khan",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel événement marque le début du Moyen Âge ?",
+    "Reponses": [
+      "Chute de l’Empire romain d’Occident",
+      "Début des croisades",
+      "Couronnement de Charlemagne",
+      "Invasion viking"
+    ],
+    "Bonne_Reponse": "Chute de l’Empire romain d’Occident",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quel pays fut le premier à envoyer un homme dans l’espace ?",
+    "Reponses": [
+      "URSS",
+      "USA",
+      "Chine",
+      "France"
+    ],
+    "Bonne_Reponse": "URSS",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "La Renaissance commence dans quel pays ?",
+    "Reponses": [
+      "Italie",
+      "Espagne",
+      "France",
+      "Angleterre"
+    ],
+    "Bonne_Reponse": "Italie",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel empereur byzantin a rédigé le Corpus Juris Civilis ?",
+    "Reponses": [
+      "Justinien Ier",
+      "Constantin",
+      "Théodose",
+      "Manuel Ier"
+    ],
+    "Bonne_Reponse": "Justinien Ier",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel traité de 1648 met fin à la guerre de Trente Ans ?",
+    "Reponses": [
+      "Traités de Westphalie",
+      "Traité d’Utrecht",
+      "Traité de Gand",
+      "Traité de Madrid"
+    ],
+    "Bonne_Reponse": "Traités de Westphalie",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel royaume antique a vu naître l’alphabet phénicien ?",
+    "Reponses": [
+      "Phénicie",
+      "Assyrie",
+      "Babylonie",
+      "Hittites"
+    ],
+    "Bonne_Reponse": "Phénicie",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel chef carthaginois a traversé les Alpes avec des éléphants ?",
+    "Reponses": [
+      "Hannibal Barca",
+      "Hasdrubal",
+      "Massinissa",
+      "Hamilcar"
+    ],
+    "Bonne_Reponse": "Hannibal Barca",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel événement met fin à l’empire napoléonien en 1815 ?",
+    "Reponses": [
+      "Bataille de Waterloo",
+      "Bataille d’Austerlitz",
+      "Traité de Campo-Formio",
+      "Siège de Toulon"
+    ],
+    "Bonne_Reponse": "Bataille de Waterloo",
+    "Difficulte": "Difficile"
+  }
+]
