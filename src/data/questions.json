@@ -1,0 +1,1786 @@
+[
+  {
+    "id": 1,
+    "intitule": "Quelle est la capitale de l'Australie ?",
+    "themeId": 1,
+    "listeReponses": ["Sydney", "Canberra", "Melbourne", "Perth"],
+    "bonneReponse": "Canberra",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 110,
+    "intitule": "Quel mot-clé permet de définir une fonction en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": ["function", "func", "def", "method"],
+    "bonneReponse": "function",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 111,
+    "intitule": "Quelle méthode permet de filtrer les éléments d'un tableau ?",
+    "themeId": 5,
+    "listeReponses": ["map", "filter", "reduce", "forEach"],
+    "bonneReponse": "filter",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 112,
+    "intitule": "Quelle est la différence entre == et === en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "== compare avec conversion de type, === sans conversion",
+      "== est plus rapide que ===",
+      "Il n'y a aucune différence",
+      "=== compare uniquement les nombres"
+    ],
+    "bonneReponse": "== compare avec conversion de type, === sans conversion",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 113,
+    "intitule": "Que retourne typeof null en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": ["null", "object", "undefined", "number"],
+    "bonneReponse": "object",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 114,
+    "intitule": "Qu'est-ce qu'une Promise en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Un objet représentant une opération asynchrone",
+      "Une fonction synchrone",
+      "Un type de variable",
+      "Une méthode de tableau"
+    ],
+    "bonneReponse": "Un objet représentant une opération asynchrone",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 115,
+    "intitule": "Qu'est-ce que le event loop en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Le mécanisme de gestion de l'exécution asynchrone",
+      "Une boucle for spéciale",
+      "Une méthode de debug",
+      "Un type d'événement DOM"
+    ],
+    "bonneReponse": "Le mécanisme de gestion de l'exécution asynchrone",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 116,
+    "intitule": "Que fait l'opérateur spread (...) en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Décompose un itérable en éléments individuels",
+      "Multiplie des nombres",
+      "Concatène des strings",
+      "Crée une copie profonde"
+    ],
+    "bonneReponse": "Décompose un itérable en éléments individuels",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 117,
+    "intitule": "Qu'est-ce que le prototype en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Le mécanisme d'héritage de JavaScript",
+      "Une fonction de base",
+      "Un type de variable",
+      "Une méthode de création d'objets"
+    ],
+    "bonneReponse": "Le mécanisme d'héritage de JavaScript",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 28,
+    "intitule": "Quelle entreprise est propriétaire de Super Mario ?",
+    "listeReponses": ["Nintendo", "Sega", "Microsoft", "Sony"],
+    "bonneReponse": "Nintendo",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 29,
+    "intitule": "Comment s'appelle l'Hérisson Bleu mascotte de Sega ?",
+    "listeReponses": ["Sonic", "Sanic", "Senic", "Sunic"],
+    "bonneReponse": "Sonic",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 30,
+    "intitule": "Quelle est l'évolution de Pikachu dans les jeux Pokémons ?",
+    "listeReponses": ["Raichu", "Pichu", "Méga-Pikachu", "Piketchup"],
+    "bonneReponse": "Raichu",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 31,
+    "intitule": "De quel jeu est originaire Donkey Kong ?",
+    "listeReponses": ["Donkey Kong", "Super Mario Bros", "Donkey Kong Country", "Super Mario World"],
+    "bonneReponse": "Donkey Kong",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 32,
+    "intitule": "La marque Playstation appartient à :",
+    "listeReponses": ["Sony", "Microsoft", "Playstation", "Nintendo"],
+    "bonneReponse": "Sony",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 33,
+    "intitule": "Quelle est le nom de la plus grande boutique en ligne de jeux vidéos sur PC ?",
+    "listeReponses": ["Steam", "GOG", "Uplay", "Windows Store"],
+    "bonneReponse": "Steam",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 34,
+    "intitule": "Qui est le protagoniste de The Legend of Zelda ?",
+    "listeReponses": ["Link", "Zelda", "Le Héro", "L'Élu"],
+    "bonneReponse": "Link",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 35,
+    "intitule": "Comment s'appelle le frère de Mario ?",
+    "listeReponses": ["Luigi", "Toni", "Marco", "Wario"],
+    "bonneReponse": "Luigi",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 36,
+    "intitule": "Quelle est la console la plus vendue au monde ? (2025)",
+    "listeReponses": ["Playstation 2", "Wii", "Nintendo DS", "Xbox 360"],
+    "bonneReponse": "Playstation 2",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 37,
+    "intitule": "Quel est le jeu le plus vendu au monde ? (2025)",
+    "listeReponses": ["Minecraft", "Tetris", "Super Mario Bros", "Call of Duty Black Ops"],
+    "bonneReponse": "Minecraft",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 118,
+    "intitule": "Dans quel jeu incarne-t-on un plombier italien ?",
+    "listeReponses": ["Sonic", "Super Mario", "Crash Bandicoot", "Pac-Man"],
+    "bonneReponse": "Super Mario",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 119,
+    "intitule": "Quel jeu de combat contient les personnages Ryu et Ken ?",
+    "listeReponses": ["Mortal Kombat", "Tekken", "Street Fighter", "Super Smash Bros"],
+    "bonneReponse": "Street Fighter",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 120,
+    "intitule": "Comment s'appelle le jeu de survie avec des blocs cubiques ?",
+    "listeReponses": ["Roblox", "Minecraft", "Terraria", "Fortnite"],
+    "bonneReponse": "Minecraft",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 },
+    "themeId": 6
+  },
+  {
+    "id": 38,
+    "intitule": "Qui est l'antagoniste de Final Fantasy 7 ?",
+    "listeReponses": ["Sephiroth", "Kefka", "Cloud", "Xehanort"],
+    "bonneReponse": "Sephiroth",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 39,
+    "intitule": "En 2024, EA a perdu le droit de FIFA. Comment se nomme leur jeu de football maintenant ?",
+    "listeReponses": ["EA Sports FC", "Fifoot", "E-Football", "Fifa"],
+    "bonneReponse": "EA Sports FC",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 40,
+    "intitule": "Avant la sortie de Pokémon Écarlate et Violet, combien y avait-il de Pokémons dans le Pokédex ?",
+    "listeReponses": ["905", "1025", "897", "1132"],
+    "bonneReponse": "905",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 41,
+    "intitule": "Quel est le surnom du protagoniste principal de Halo ?",
+    "listeReponses": ["Master Chief", "Doom Guy", "Samus Aran", "Bob"],
+    "bonneReponse": "Master Chief",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 42,
+    "intitule": "Quelle est la célèbre licence de jeux d'horreur de Capcom ?",
+    "listeReponses": ["Resident Evil", "Silent Hill", "Dead Space", "Five Night at Freddy's"],
+    "bonneReponse": "Resident Evil",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 43,
+    "intitule": "Quel jeu a été nommé Game of The Year durant les Game Awards 2022 ?",
+    "listeReponses": ["Elden Ring", "Baldur's Gate 3", "The Last of Us 2", "Grand Theft Auto 5"],
+    "bonneReponse": "Elden Ring",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 44,
+    "intitule": "Dans lequel de ces jeux n'est-il pas possible de jouer Link officiellement ?",
+    "listeReponses": ["Fortnite", "Soul Calibur 2", "Mario Kart 8", "Super Smash Bros Melee"],
+    "bonneReponse": "Fortnite",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 45,
+    "intitule": "Dans la licence Metroid, comment s'appelle la combinaison qui permet à Samus de résister à la chaleur ?",
+    "listeReponses": ["Varia Suit", "Gravity Suit", "Fusion Suit", "Power Suit"],
+    "bonneReponse": "Varia Suit",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 46,
+    "intitule": "Comment s'appelle l'assistant du Professeur Layton ?",
+    "listeReponses": ["Luke", "Edward", "Hershell", "Leo"],
+    "bonneReponse": "Luke",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 47,
+    "intitule": "Quel est le Monster emblématique de Monster Hunter ?",
+    "listeReponses": ["Rathalos", "Rathian", "Nergigante", "Fatalis"],
+    "bonneReponse": "Rathalos",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 121,
+    "intitule": "Dans quelle ville se déroule principalement Grand Theft Auto V ?",
+    "listeReponses": ["Liberty City", "Los Santos", "Vice City", "San Fierro"],
+    "bonneReponse": "Los Santos",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 122,
+    "intitule": "Quel studio a développé The Witcher 3 ?",
+    "listeReponses": ["CD Projekt Red", "Bethesda", "BioWare", "Ubisoft"],
+    "bonneReponse": "CD Projekt Red",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 123,
+    "intitule": "Dans Dark Souls, comment s'appelle la monnaie principale ?",
+    "listeReponses": ["Âmes", "Pièces d'or", "Runes", "Échos de sang"],
+    "bonneReponse": "Âmes",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 124,
+    "intitule": "Quel personnage dit 'It's-a me!' ?",
+    "listeReponses": ["Luigi", "Mario", "Wario", "Yoshi"],
+    "bonneReponse": "Mario",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 20 },
+    "themeId": 6
+  },
+  {
+    "id": 48,
+    "intitule": "De quel jeu Nier est-il la suite ?",
+    "listeReponses": ["Drakengard", "Nier Automata", "Drakengard 3", "Nier: Reincarnation"],
+    "bonneReponse": "Drakengard",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 49,
+    "intitule": "Qui est le Roi Lich dans l'univers de Warcraft ?",
+    "listeReponses": ["Arthas Menethil", "Anduin Wrynn", "Uther Lightbringer", "Garrosh Hurlenfer"],
+    "bonneReponse": "Arthas Menethil",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 50,
+    "intitule": "Comment s'appelle l'épée de Shulk dans Xenoblade Chronicles ?",
+    "listeReponses": ["Monado", "Aegis", "Excalibur", "Xeno-Aegis"],
+    "bonneReponse": "Monado",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 51,
+    "intitule": "Dans la conception de jeu vidéo, quel est le terme pour définir les zones de collision ?",
+    "listeReponses": ["Hit Box", "Collision Zone", "Body", "Hit Zone"],
+    "bonneReponse": "Hit Box",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 52,
+    "intitule": "Qui est Dracula dans Castlevania Lament of Innocence ?",
+    "listeReponses": ["Mathias Cronqvist", "Vlad Tepes", "Gabriel Belmont", "La Mort"],
+    "bonneReponse": "Mathias Cronqvist",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 125,
+    "intitule": "Quel est le vrai nom de Solid Snake dans Metal Gear ?",
+    "listeReponses": ["David", "John", "Jack", "Frank"],
+    "bonneReponse": "David",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 126,
+    "intitule": "Dans Persona 5, comment s'appelle le monde alternatif ?",
+    "listeReponses": ["Le Metaverse", "La Zone", "L'Outre-Monde", "Le Palais"],
+    "bonneReponse": "Le Metaverse",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 127,
+    "intitule": "Quel est le nom complet du protagoniste de Chrono Trigger ?",
+    "listeReponses": ["Crono", "Chrono", "Chronos", "Il n'a pas de nom canon"],
+    "bonneReponse": "Crono",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 128,
+    "intitule": "Dans quelle année se déroule le premier Fallout ?",
+    "listeReponses": ["2077", "2161", "2277", "2287"],
+    "bonneReponse": "2161",
+    "difficulte": { "titre": "Difficile", "nbrPoints": 30, "chrono": 10 },
+    "themeId": 6
+  },
+  {
+    "id": 53,
+    "intitule": "Comment dit-on « bonjour » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Hello", "Goodbye", "Please", "Thanks"],
+    "bonneReponse": "Hello",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 54,
+    "intitule": "Que signifie « cat » ?",
+    "themeId": 7,
+    "listeReponses": ["Chat", "Chien", "Oiseau", "Poisson"],
+    "bonneReponse": "Chat",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 55,
+    "intitule": "Que veut dire « thank you » ?",
+    "themeId": 7,
+    "listeReponses": ["Merci", "Bonjour", "Pardon", "Salut"],
+    "bonneReponse": "Merci",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 56,
+    "intitule": "Comment dit-on « rouge » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Red", "Blue", "Green", "Yellow"],
+    "bonneReponse": "Red",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 57,
+    "intitule": "Quel mot signifie « courir » ?",
+    "themeId": 7,
+    "listeReponses": ["Run", "Eat", "Sleep", "Read"],
+    "bonneReponse": "Run",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 58,
+    "intitule": "Comment dit-on « je m'appelle » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["My name is", "I am from", "I have", "I live"],
+    "bonneReponse": "My name is",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 59,
+    "intitule": "Comment dit-on « maison » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["House", "Home", "Room", "Flat"],
+    "bonneReponse": "House",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 60,
+    "intitule": "Que veut dire « water » ?",
+    "themeId": 7,
+    "listeReponses": ["Eau", "Feu", "Vent", "Terre"],
+    "bonneReponse": "Eau",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 61,
+    "intitule": "Comment dit-on « livre » (objet) ?",
+    "themeId": 7,
+    "listeReponses": ["Book", "Table", "Pen", "Bag"],
+    "bonneReponse": "Book",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 62,
+    "intitule": "Quelle est la traduction de « good night » ?",
+    "themeId": 7,
+    "listeReponses": ["Bonne nuit", "Bonjour", "Bravo", "Merci"],
+    "bonneReponse": "Bonne nuit",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 129,
+    "intitule": "Comment dit-on « chien » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Dog", "Cat", "Bird", "Mouse"],
+    "bonneReponse": "Dog",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 130,
+    "intitule": "Que signifie « apple » ?",
+    "themeId": 7,
+    "listeReponses": ["Pomme", "Orange", "Banane", "Raisin"],
+    "bonneReponse": "Pomme",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 131,
+    "intitule": "Comment dit-on « oui » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Yes", "No", "Maybe", "Please"],
+    "bonneReponse": "Yes",
+    "difficulte": { "titre": "Facile", "nbrPoints": 10, "chrono": 30 }
+  },
+  {
+    "id": 63,
+    "intitule": "Quelle est la traduction du verbe « to understand » ?",
+    "themeId": 7,
+    "listeReponses": ["Comprendre", "Apprendre", "Entendre", "Regarder"],
+    "bonneReponse": "Comprendre",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 64,
+    "intitule": "Quelle préposition convient dans « I was born ___ 2001 » ?",
+    "themeId": 7,
+    "listeReponses": ["in", "on", "at", "from"],
+    "bonneReponse": "in",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 65,
+    "intitule": "Comment traduit-on « quickly » ?",
+    "themeId": 7,
+    "listeReponses": ["Rapidement", "Calmement", "Doucement", "Facilement"],
+    "bonneReponse": "Rapidement",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 66,
+    "intitule": "Quel est le pluriel de « child » ?",
+    "themeId": 7,
+    "listeReponses": ["Children", "Childs", "Childes", "Childer"],
+    "bonneReponse": "Children",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 67,
+    "intitule": "Que signifie « to improve » ?",
+    "themeId": 7,
+    "listeReponses": ["Améliorer", "Réparer", "Supprimer", "Changer"],
+    "bonneReponse": "Améliorer",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 68,
+    "intitule": "Quel mot correspond à « métier » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["Job", "Hobby", "Lesson", "Travel"],
+    "bonneReponse": "Job",
+    "difficulte": { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 69,
+    "intitule": "Comment dit-on « cependant » en anglais ?",
+    "themeId": 7,
+    "listeReponses": ["However", "Because", "Therefore", "Although"],
+    "bonneReponse": "However",
+     "difficulte" : { "titre": "Moyen", "nbrPoints": 20, "chrono": 45 }
+  },
+  {
+    "id": 2,
+    "intitule": "Quelle est la capitale du Japon ?",
+    "themeId": 1,
+    "listeReponses": ["Osaka", "Kyoto", "Tokyo", "Yokohama"],
+    "bonneReponse": "Tokyo",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 3,
+    "intitule": "Quelle est la capitale du Brésil ?",
+    "themeId": 1,
+    "listeReponses": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+    "bonneReponse": "Brasília",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 4,
+    "intitule": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "themeId": 1,
+    "listeReponses": ["Auckland", "Wellington", "Christchurch", "Hamilton"],
+    "bonneReponse": "Wellington",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 5,
+    "intitule": "Quelle est la capitale du Canada ?",
+    "themeId": 1,
+    "listeReponses": ["Toronto", "Montréal", "Ottawa", "Vancouver"],
+    "bonneReponse": "Ottawa",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 78,
+    "intitule": "Quelle est la capitale de l'Italie ?",
+    "themeId": 1,
+    "listeReponses": ["Milan", "Rome", "Naples", "Florence"],
+    "bonneReponse": "Rome",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 79,
+    "intitule": "Quelle est la capitale de l'Espagne ?",
+    "themeId": 1,
+    "listeReponses": ["Barcelone", "Madrid", "Séville", "Valence"],
+    "bonneReponse": "Madrid",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 80,
+    "intitule": "Quelle est la capitale de l'Allemagne ?",
+    "themeId": 1,
+    "listeReponses": ["Munich", "Berlin", "Hambourg", "Francfort"],
+    "bonneReponse": "Berlin",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 6,
+    "intitule": "Quelle est la capitale du Maroc ?",
+    "themeId": 1,
+    "listeReponses": ["Casablanca", "Rabat", "Marrakech", "Fès"],
+    "bonneReponse": "Rabat",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 7,
+    "intitule": "Quelle est la capitale de la Turquie ?",
+    "themeId": 1,
+    "listeReponses": ["Istanbul", "Ankara", "Izmir", "Antalya"],
+    "bonneReponse": "Ankara",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 8,
+    "intitule": "Quelle est la capitale du Myanmar ?",
+    "themeId": 1,
+    "listeReponses": ["Yangon", "Naypyidaw", "Mandalay", "Bago"],
+    "bonneReponse": "Naypyidaw",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 81,
+    "intitule": "Quelle est la capitale du Kazakhstan ?",
+    "themeId": 1,
+    "listeReponses": ["Almaty", "Astana", "Chymkent", "Aktobe"],
+    "bonneReponse": "Astana",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 82,
+    "intitule": "Quelle est la capitale du Vietnam ?",
+    "themeId": 1,
+    "listeReponses": ["Hô Chi Minh-Ville", "Hanoï", "Da Nang", "Hue"],
+    "bonneReponse": "Hanoï",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 83,
+    "intitule": "Quelle est la capitale de la Colombie ?",
+    "themeId": 1,
+    "listeReponses": ["Medellín", "Bogotá", "Cali", "Carthagène"],
+    "bonneReponse": "Bogotá",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 9,
+    "intitule": "Quelle est la capitale du Bhoutan ?",
+    "themeId": 1,
+    "listeReponses": ["Paro", "Thimphou", "Punakha", "Wangdue Phodrang"],
+    "bonneReponse": "Thimphou",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 10,
+    "intitule": "Quelle est la capitale du Suriname ?",
+    "themeId": 1,
+    "listeReponses": ["Paramaribo", "Lelydorp", "Nieuw Nickerie", "Moengo"],
+    "bonneReponse": "Paramaribo",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 84,
+    "intitule": "Quelle est la capitale du Turkménistan ?",
+    "themeId": 1,
+    "listeReponses": ["Achgabat", "Türkmenabat", "Daşoguz", "Mary"],
+    "bonneReponse": "Achgabat",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 85,
+    "intitule": "Quelle est la capitale de l'Érythrée ?",
+    "themeId": 1,
+    "listeReponses": ["Asmara", "Massaoua", "Assab", "Keren"],
+    "bonneReponse": "Asmara",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 86,
+    "intitule": "Quelle est la capitale des Palaos ?",
+    "themeId": 1,
+    "listeReponses": ["Koror", "Ngerulmud", "Melekeok", "Airai"],
+    "bonneReponse": "Ngerulmud",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 11,
+    "intitule": "En quelle année a eu lieu la Révolution française ?",
+    "themeId": 2,
+    "listeReponses": ["1787", "1789", "1791", "1793"],
+    "bonneReponse": "1789",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 12,
+    "intitule": "Qui était le roi de France lors de la Révolution ?",
+    "themeId": 2,
+    "listeReponses": ["Louis XV", "Louis XVI", "Louis XVII", "Louis XVIII"],
+    "bonneReponse": "Louis XVI",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 13,
+    "intitule": "Quelle bataille a marqué la fin de Napoléon ?",
+    "themeId": 2,
+    "listeReponses": ["Austerlitz", "Waterloo", "Iéna", "Marengo"],
+    "bonneReponse": "Waterloo",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 87,
+    "intitule": "En quelle année a débuté la Première Guerre mondiale ?",
+    "themeId": 2,
+    "listeReponses": ["1912", "1914", "1916", "1918"],
+    "bonneReponse": "1914",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 88,
+    "intitule": "Qui a découvert l'Amérique en 1492 ?",
+    "themeId": 2,
+    "listeReponses": ["Amerigo Vespucci", "Christophe Colomb", "Vasco de Gama", "Ferdinand Magellan"],
+    "bonneReponse": "Christophe Colomb",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 14,
+    "intitule": "En quelle année a été signé l'édit de Nantes ?",
+    "themeId": 2,
+    "listeReponses": ["1596", "1598", "1600", "1602"],
+    "bonneReponse": "1598",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 15,
+    "intitule": "Qui était le Premier ministre sous Louis XIV ?",
+    "themeId": 2,
+    "listeReponses": ["Richelieu", "Mazarin", "Colbert", "Fouquet"],
+    "bonneReponse": "Colbert",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 89,
+    "intitule": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "themeId": 2,
+    "listeReponses": ["Traité de Paris", "Traité de Versailles", "Traité de Trianon", "Traité de Rome"],
+    "bonneReponse": "Traité de Versailles",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 90,
+    "intitule": "En quelle année a eu lieu la prise de la Bastille ?",
+    "themeId": 2,
+    "listeReponses": ["14 juillet 1788", "14 juillet 1789", "14 juillet 1790", "14 juillet 1791"],
+    "bonneReponse": "14 juillet 1789",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 91,
+    "intitule": "Qui était le pharaon lors de la construction de la grande pyramide de Gizeh ?",
+    "themeId": 2,
+    "listeReponses": ["Khéops", "Khéphren", "Mykérinos", "Ramsès II"],
+    "bonneReponse": "Khéops",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 16,
+    "intitule": "Quelle dynastie a régné sur la France de 987 à 1328 ?",
+    "themeId": 2,
+    "listeReponses": ["Mérovingiens", "Carolingiens", "Capétiens", "Valois"],
+    "bonneReponse": "Capétiens",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 92,
+    "intitule": "En quelle année a eu lieu la bataille de Poitiers où Charles Martel a arrêté l'expansion arabe ?",
+    "themeId": 2,
+    "listeReponses": ["732", "742", "752", "762"],
+    "bonneReponse": "732",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 93,
+    "intitule": "Quel empereur romain a légalisé le christianisme avec l'édit de Milan ?",
+    "themeId": 2,
+    "listeReponses": ["Néron", "Constantin Ier", "Auguste", "Justinien"],
+    "bonneReponse": "Constantin Ier",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 94,
+    "intitule": "Quel traité a divisé l'empire carolingien en 843 ?",
+    "themeId": 2,
+    "listeReponses": ["Traité de Verdun", "Traité de Meerssen", "Traité de Ribemont", "Traité de Paris"],
+    "bonneReponse": "Traité de Verdun",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 17,
+    "intitule": "Quelle est la vitesse de la lumière dans le vide ?",
+    "themeId": 3,
+    "listeReponses": ["300 000 km/s", "150 000 km/s", "450 000 km/s", "600 000 km/s"],
+    "bonneReponse": "300 000 km/s",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 18,
+    "intitule": "Quel est le symbole chimique de l'or ?",
+    "themeId": 3,
+    "listeReponses": ["Or", "Au", "Go", "Ag"],
+    "bonneReponse": "Au",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 19,
+    "intitule": "Combien de planètes composent notre système solaire ?",
+    "themeId": 3,
+    "listeReponses": ["7", "8", "9", "10"],
+    "bonneReponse": "8",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 95,
+    "intitule": "Quel est le symbole chimique de l'eau ?",
+    "themeId": 3,
+    "listeReponses": ["H2O", "O2", "CO2", "HO"],
+    "bonneReponse": "H2O",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 96,
+    "intitule": "Quelle planète est la plus proche du Soleil ?",
+    "themeId": 3,
+    "listeReponses": ["Vénus", "Mercure", "Mars", "Terre"],
+    "bonneReponse": "Mercure",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 20,
+    "intitule": "Qu'est-ce que la photosynthèse ?",
+    "themeId": 3,
+    "listeReponses": [
+      "La production d'énergie par les cellules",
+      "La transformation de la lumière en énergie chimique par les plantes",
+      "La respiration des plantes",
+      "La décomposition de la matière organique"
+    ],
+    "bonneReponse": "La transformation de la lumière en énergie chimique par les plantes",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 97,
+    "intitule": "Combien d'os possède le corps humain adulte ?",
+    "themeId": 3,
+    "listeReponses": ["186", "206", "226", "246"],
+    "bonneReponse": "206",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 98,
+    "intitule": "Quelle est la température d'ébullition de l'eau au niveau de la mer ?",
+    "themeId": 3,
+    "listeReponses": ["90°C", "100°C", "110°C", "120°C"],
+    "bonneReponse": "100°C",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 99,
+    "intitule": "Quel gaz représente environ 78% de l'atmosphère terrestre ?",
+    "themeId": 3,
+    "listeReponses": ["Oxygène", "Azote", "Dioxyde de carbone", "Argon"],
+    "bonneReponse": "Azote",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 21,
+    "intitule": "Quel est le nombre d'Avogadro approximatif ?",
+    "themeId": 3,
+    "listeReponses": ["6.02 × 10²³", "6.02 × 10²²", "6.02 × 10²⁴", "6.02 × 10²⁵"],
+    "bonneReponse": "6.02 × 10²³",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 100,
+    "intitule": "Quelle est la constante de Planck (valeur approximative) ?",
+    "themeId": 3,
+    "listeReponses": ["6.626 × 10⁻³⁴ J·s", "9.81 m/s²", "3.14159", "1.602 × 10⁻¹⁹ C"],
+    "bonneReponse": "6.626 × 10⁻³⁴ J·s",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 101,
+    "intitule": "Quel élément chimique a pour numéro atomique 92 ?",
+    "themeId": 3,
+    "listeReponses": ["Plutonium", "Uranium", "Thorium", "Neptunium"],
+    "bonneReponse": "Uranium",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 102,
+    "intitule": "Quelle particule subatomique a été découverte au CERN en 2012 ?",
+    "themeId": 3,
+    "listeReponses": ["Boson de Higgs", "Quark top", "Neutrino tau", "Graviton"],
+    "bonneReponse": "Boson de Higgs",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 132,
+    "intitule": "Quelle planète est surnommée la planète rouge ?",
+    "themeId": 3,
+    "listeReponses": ["Vénus", "Mars", "Jupiter", "Saturne"],
+    "bonneReponse": "Mars",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 133,
+    "intitule": "Combien de pattes possède une araignée ?",
+    "themeId": 3,
+    "listeReponses": ["6", "8", "10", "12"],
+    "bonneReponse": "8",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 134,
+    "intitule": "Quel organe humain pompe le sang ?",
+    "themeId": 3,
+    "listeReponses": ["Le foie", "Le cœur", "Les poumons", "L'estomac"],
+    "bonneReponse": "Le cœur",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 135,
+    "intitule": "Quelle est la formule chimique du sel de table ?",
+    "themeId": 3,
+    "listeReponses": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+    "bonneReponse": "NaCl",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 136,
+    "intitule": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+    "themeId": 3,
+    "listeReponses": ["Oxygène", "Hydrogène", "Carbone", "Hélium"],
+    "bonneReponse": "Hydrogène",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 137,
+    "intitule": "Comment s'appelle le plus grand mammifère terrestre ?",
+    "themeId": 3,
+    "listeReponses": ["Rhinocéros", "Hippopotame", "Éléphant", "Girafe"],
+    "bonneReponse": "Éléphant",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 138,
+    "intitule": "Quelle unité mesure la force ?",
+    "themeId": 3,
+    "listeReponses": ["Joule", "Newton", "Watt", "Pascal"],
+    "bonneReponse": "Newton",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 139,
+    "intitule": "Quel scientifique a découvert la pénicilline ?",
+    "themeId": 3,
+    "listeReponses": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Albert Einstein"],
+    "bonneReponse": "Alexander Fleming",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 140,
+    "intitule": "Combien de chromosomes possède une cellule humaine normale ?",
+    "themeId": 3,
+    "listeReponses": ["23", "46", "48", "92"],
+    "bonneReponse": "46",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 141,
+    "intitule": "Quelle est la distance approximative de la Terre au Soleil ?",
+    "themeId": 3,
+    "listeReponses": ["100 millions de km", "150 millions de km", "200 millions de km", "250 millions de km"],
+    "bonneReponse": "150 millions de km",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 142,
+    "intitule": "Quel est le pH de l'eau pure ?",
+    "themeId": 3,
+    "listeReponses": ["5", "7", "9", "11"],
+    "bonneReponse": "7",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 143,
+    "intitule": "Comment s'appelle la couche protectrice de la Terre qui absorbe les UV ?",
+    "themeId": 3,
+    "listeReponses": ["La stratosphère", "La couche d'ozone", "La troposphère", "L'ionosphère"],
+    "bonneReponse": "La couche d'ozone",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 144,
+    "intitule": "Quel est le nom du processus de division cellulaire ?",
+    "themeId": 3,
+    "listeReponses": ["Mitose", "Méiose", "Les deux", "Aucun"],
+    "bonneReponse": "Les deux",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 145,
+    "intitule": "Qui a proposé la théorie de l'évolution par sélection naturelle ?",
+    "themeId": 3,
+    "listeReponses": ["Charles Darwin", "Gregor Mendel", "Jean-Baptiste Lamarck", "Alfred Wallace"],
+    "bonneReponse": "Charles Darwin",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 146,
+    "intitule": "Quelle est la masse volumique de l'eau ?",
+    "themeId": 3,
+    "listeReponses": ["1 g/cm³", "0.5 g/cm³", "1.5 g/cm³", "2 g/cm³"],
+    "bonneReponse": "1 g/cm³",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 147,
+    "intitule": "Quel principe physique explique pourquoi les avions volent ?",
+    "themeId": 3,
+    "listeReponses": ["Principe d'Archimède", "Principe de Bernoulli", "Loi de Newton", "Effet Doppler"],
+    "bonneReponse": "Principe de Bernoulli",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 148,
+    "intitule": "Quel est le nom de la théorie qui unifie la mécanique quantique et la relativité ?",
+    "themeId": 3,
+    "listeReponses": ["Théorie des cordes", "Théorie du tout", "Mécanique quantique relativiste", "Aucune n'existe"],
+    "bonneReponse": "Aucune n'existe",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 149,
+    "intitule": "Quelle est la demi-vie approximative du carbone 14 ?",
+    "themeId": 3,
+    "listeReponses": ["5 730 ans", "1 000 ans", "10 000 ans", "50 000 ans"],
+    "bonneReponse": "5 730 ans",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 150,
+    "intitule": "Comment s'appelle le processus de fusion nucléaire dans le Soleil ?",
+    "themeId": 3,
+    "listeReponses": ["Chaîne proton-proton", "Cycle CNO", "Les deux", "Fission nucléaire"],
+    "bonneReponse": "Les deux",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 151,
+    "intitule": "Quel est le principe d'incertitude en physique quantique ?",
+    "themeId": 3,
+    "listeReponses": ["Principe de Heisenberg", "Principe de Pauli", "Principe de Schrödinger", "Principe de Dirac"],
+    "bonneReponse": "Principe de Heisenberg",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 152,
+    "intitule": "Quelle est l'équation fondamentale de la relativité générale d'Einstein ?",
+    "themeId": 3,
+    "listeReponses": ["E=mc²", "Rμν - ½gμνR = 8πGTμν", "F=ma", "ΔE = hν"],
+    "bonneReponse": "Rμν - ½gμνR = 8πGTμν",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 153,
+    "intitule": "Combien y a-t-il d'acides aminés essentiels pour l'humain ?",
+    "themeId": 3,
+    "listeReponses": ["9", "12", "20", "23"],
+    "bonneReponse": "9",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 154,
+    "intitule": "Quel est le nom du paradoxe où un chat est à la fois mort et vivant ?",
+    "themeId": 3,
+    "listeReponses": ["Chat de Schrödinger", "Chat de Heisenberg", "Chat de Pauli", "Chat d'Einstein"],
+    "bonneReponse": "Chat de Schrödinger",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 22,
+    "intitule": "Qui a réalisé le film 'Pulp Fiction' ?",
+    "themeId": 4,
+    "listeReponses": ["Martin Scorsese", "Quentin Tarantino", "Steven Spielberg", "Christopher Nolan"],
+    "bonneReponse": "Quentin Tarantino",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 23,
+    "intitule": "Quel film a remporté l'Oscar du meilleur film en 2020 ?",
+    "themeId": 4,
+    "listeReponses": ["1917", "Parasite", "Joker", "Once Upon a Time in Hollywood"],
+    "bonneReponse": "Parasite",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 24,
+    "intitule": "Dans quel film entend-on 'May the Force be with you' ?",
+    "themeId": 4,
+    "listeReponses": ["Star Trek", "Star Wars", "Blade Runner", "Dune"],
+    "bonneReponse": "Star Wars",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 103,
+    "intitule": "Qui a réalisé le film 'Le Parrain' ?",
+    "themeId": 4,
+    "listeReponses": ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Sidney Lumet"],
+    "bonneReponse": "Francis Ford Coppola",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 104,
+    "intitule": "Quel acteur joue Iron Man dans l'univers Marvel ?",
+    "themeId": 4,
+    "listeReponses": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    "bonneReponse": "Robert Downey Jr.",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 105,
+    "intitule": "Qui a réalisé 'Inception' ?",
+    "themeId": 4,
+    "listeReponses": ["Denis Villeneuve", "Christopher Nolan", "Ridley Scott", "James Cameron"],
+    "bonneReponse": "Christopher Nolan",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 106,
+    "intitule": "Quel film a remporté le plus d'Oscars avec 11 statuettes ?",
+    "themeId": 4,
+    "listeReponses": ["Titanic", "Le Seigneur des Anneaux : Le Retour du Roi", "Ben-Hur", "Tous ces films"],
+    "bonneReponse": "Tous ces films",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 107,
+    "intitule": "Dans quel film trouve-t-on le personnage de HAL 9000 ?",
+    "themeId": 4,
+    "listeReponses": ["Blade Runner", "2001 : L'Odyssée de l'espace", "Alien", "Matrix"],
+    "bonneReponse": "2001 : L'Odyssée de l'espace",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 108,
+    "intitule": "Quel réalisateur japonais a créé 'Le Voyage de Chihiro' ?",
+    "themeId": 4,
+    "listeReponses": ["Akira Kurosawa", "Hayao Miyazaki", "Satoshi Kon", "Makoto Shinkai"],
+    "bonneReponse": "Hayao Miyazaki",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 155,
+    "intitule": "Quel film a remporté la Palme d'or à Cannes en 2019 ?",
+    "themeId": 4,
+    "listeReponses": ["Parasite", "Portrait de la jeune fille en feu", "Les Misérables", "Douleur et Gloire"],
+    "bonneReponse": "Parasite",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 156,
+    "intitule": "Dans quel film trouve-t-on la phrase 'Hasta la vista, baby' ?",
+    "themeId": 4,
+    "listeReponses": ["Terminator", "Terminator 2", "Predator", "Total Recall"],
+    "bonneReponse": "Terminator 2",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 157,
+    "intitule": "Qui joue Jack dans Titanic ?",
+    "themeId": 4,
+    "listeReponses": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Matt Damon"],
+    "bonneReponse": "Leonardo DiCaprio",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 158,
+    "intitule": "Quel film de Disney met en scène Simba ?",
+    "themeId": 4,
+    "listeReponses": ["Le Livre de la jungle", "Le Roi Lion", "Tarzan", "Bambi"],
+    "bonneReponse": "Le Roi Lion",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 159,
+    "intitule": "Qui a réalisé la trilogie Matrix ?",
+    "themeId": 4,
+    "listeReponses": ["Les Wachowski", "James Cameron", "Ridley Scott", "Christopher Nolan"],
+    "bonneReponse": "Les Wachowski",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 160,
+    "intitule": "Quel acteur incarne Batman dans The Dark Knight ?",
+    "themeId": 4,
+    "listeReponses": ["Christian Bale", "Ben Affleck", "Michael Keaton", "Robert Pattinson"],
+    "bonneReponse": "Christian Bale",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 161,
+    "intitule": "Combien d'Oscars a remporté le film 'La La Land' ?",
+    "themeId": 4,
+    "listeReponses": ["6", "7", "13", "14"],
+    "bonneReponse": "6",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 162,
+    "intitule": "Quel film raconte l'histoire de Forrest Gump ?",
+    "themeId": 4,
+    "listeReponses": ["Cast Away", "Forrest Gump", "Saving Private Ryan", "Philadelphia"],
+    "bonneReponse": "Forrest Gump",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 163,
+    "intitule": "Dans quel film entend-on 'I'll be back' ?",
+    "themeId": 4,
+    "listeReponses": ["Predator", "Terminator", "Total Recall", "Conan le Barbare"],
+    "bonneReponse": "Terminator",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 164,
+    "intitule": "Qui a composé la musique de Star Wars ?",
+    "themeId": 4,
+    "listeReponses": ["Hans Zimmer", "John Williams", "Ennio Morricone", "Danny Elfman"],
+    "bonneReponse": "John Williams",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 165,
+    "intitule": "Quel film de Stanley Kubrick se déroule dans un hôtel isolé ?",
+    "themeId": 4,
+    "listeReponses": ["2001", "Shining", "Orange Mécanique", "Full Metal Jacket"],
+    "bonneReponse": "Shining",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 166,
+    "intitule": "Quel acteur joue le Joker dans le film de 2019 ?",
+    "themeId": 4,
+    "listeReponses": ["Heath Ledger", "Jared Leto", "Joaquin Phoenix", "Jack Nicholson"],
+    "bonneReponse": "Joaquin Phoenix",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 167,
+    "intitule": "Quel film a popularisé la phrase 'Houston, we have a problem' ?",
+    "themeId": 4,
+    "listeReponses": ["Apollo 13", "Gravity", "Interstellar", "The Martian"],
+    "bonneReponse": "Apollo 13",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 168,
+    "intitule": "Dans quel film Marlon Brando dit-il 'I'm gonna make him an offer he can't refuse' ?",
+    "themeId": 4,
+    "listeReponses": ["Le Parrain", "Apocalypse Now", "Sur les quais", "Un tramway nommé Désir"],
+    "bonneReponse": "Le Parrain",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 169,
+    "intitule": "Quel réalisateur a créé la saga 'Alien' ?",
+    "themeId": 4,
+    "listeReponses": ["James Cameron", "Ridley Scott", "David Fincher", "Jean-Pierre Jeunet"],
+    "bonneReponse": "Ridley Scott",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 170,
+    "intitule": "Quel film de 1941 est considéré comme un des plus grands films de tous les temps ?",
+    "themeId": 4,
+    "listeReponses": ["Casablanca", "Citizen Kane", "Autant en emporte le vent", "Rebecca"],
+    "bonneReponse": "Citizen Kane",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 171,
+    "intitule": "Qui a réalisé 'La Dolce Vita' ?",
+    "themeId": 4,
+    "listeReponses": ["Federico Fellini", "Luchino Visconti", "Michelangelo Antonioni", "Vittorio De Sica"],
+    "bonneReponse": "Federico Fellini",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 172,
+    "intitule": "Quel film de Sergio Leone met en scène Clint Eastwood dans un western ?",
+    "themeId": 4,
+    "listeReponses": ["Le Bon, la Brute et le Truand", "Il était une fois dans l'Ouest", "Il était une fois en Amérique", "Pour une poignée de dollars"],
+    "bonneReponse": "Pour une poignée de dollars",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 173,
+    "intitule": "Quel acteur a refusé le rôle de Neo dans Matrix ?",
+    "themeId": 4,
+    "listeReponses": ["Will Smith", "Brad Pitt", "Tom Cruise", "Johnny Depp"],
+    "bonneReponse": "Will Smith",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  },
+  {
+    "id": 25,
+    "intitule": "Qu'est-ce qu'une closure en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Une fonction qui peut accéder aux variables de son scope parent",
+      "Une méthode pour fermer une fonction",
+      "Un type de boucle",
+      "Une structure de données"
+    ],
+    "bonneReponse": "Une fonction qui peut accéder aux variables de son scope parent",
+    "difficulte": {
+      "titre": "Moyen",
+      "nbrPoints": 20,
+      "chrono": 25
+    }
+  },
+  {
+    "id": 26,
+    "intitule": "Quelle méthode permet de créer un nouveau tableau à partir d'un autre ?",
+    "themeId": 5,
+    "listeReponses": ["forEach", "map", "filter", "reduce"],
+    "bonneReponse": "map",
+    "difficulte": {
+      "titre": "Facile",
+      "nbrPoints": 10,
+      "chrono": 30
+    }
+  },
+  {
+    "id": 27,
+    "intitule": "Qu'est-ce que le hoisting en JavaScript ?",
+    "themeId": 5,
+    "listeReponses": [
+      "Le déplacement des déclarations en haut du scope",
+      "Une erreur de syntaxe",
+      "Une méthode de performance",
+      "Un type de variable"
+    ],
+    "bonneReponse": "Le déplacement des déclarations en haut du scope",
+    "difficulte": {
+      "titre": "Difficile",
+      "nbrPoints": 30,
+      "chrono": 20
+    }
+  }
+]

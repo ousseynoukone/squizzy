@@ -1,16 +1,24 @@
-# React + Vite
+### ✨ High-Level Squizzy Concept 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Squizzy** application is designed as a standard user-friendly **quiz game** with the following flow and components:
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 User Flow
 
-## React Compiler
+1.  **Selection**: The user first chooses a **Theme** for the quiz.
+2.  **Difficulty**: The user then selects a **Difficulty** level (e.g., Easy, Normal, Difficult), which determines the number of questions, the point value of each correct answer, and the time limit for the quiz.
+3.  **Game**: The user answers the questions one by one within the time limit.
+4.  **Results**: After completing the quiz, the user receives a detailed **Score** report.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📊 Results and Evaluation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The final results page provides a comprehensive breakdown of the player's performance:
+
+* **Final Score**
+* **Success Rate** (Percentage of correct answers)
+* Breakdown of questions answered correctly based on their **Difficulty**.
+* A descriptive **Evaluation** (e.g., "Excellent," "Average") based on the final score.
+
