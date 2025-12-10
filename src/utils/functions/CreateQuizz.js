@@ -22,11 +22,6 @@ export default function CreateQuizz(Theme, difficulte, nbQuestions) {
   let nbD;
 
   switch (difficulte) {
-    case 0: //Facile
-      nbF = 7;
-      nbM = 2;
-      nbD = 1;
-      break;
     case 1: //Moyen
       nbF = 4;
       nbM = 4;
@@ -37,7 +32,7 @@ export default function CreateQuizz(Theme, difficulte, nbQuestions) {
       nbM = 4;
       nbD = 4;
       break;
-    default: //Facile (error)
+    default: //Facile
       nbF = 7;
       nbM = 2;
       nbD = 1;
