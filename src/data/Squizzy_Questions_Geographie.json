@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Quel est le plus grand océan du monde ?",
+    "Reponses": [
+      "Pacifique",
+      "Atlantique",
+      "Indien",
+      "Arctique"
+    ],
+    "Bonne_Reponse": "Pacifique",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel est le plus long fleuve du monde ?",
+    "Reponses": [
+      "Nil",
+      "Amazone",
+      "Yangtsé",
+      "Mississippi"
+    ],
+    "Bonne_Reponse": "Amazone",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel pays possède la plus grande population ?",
+    "Reponses": [
+      "Chine",
+      "Inde",
+      "États-Unis",
+      "Indonésie"
+    ],
+    "Bonne_Reponse": "Inde",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quelle est la capitale de l’Espagne ?",
+    "Reponses": [
+      "Madrid",
+      "Barcelone",
+      "Séville",
+      "Valence"
+    ],
+    "Bonne_Reponse": "Madrid",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel est le plus grand désert du monde ?",
+    "Reponses": [
+      "Sahara",
+      "Gobi",
+      "Kalahari",
+      "désert d’Arabie"
+    ],
+    "Bonne_Reponse": "Sahara",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Dans quel pays se trouve la Tour Eiffel ?",
+    "Reponses": [
+      "France",
+      "Italie",
+      "Belgique",
+      "Suisse"
+    ],
+    "Bonne_Reponse": "France",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel est le plus grand continent ?",
+    "Reponses": [
+      "Asie",
+      "Afrique",
+      "Amérique",
+      "Europe"
+    ],
+    "Bonne_Reponse": "Asie",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel pays est célèbre pour ses tulipes et ses moulins ?",
+    "Reponses": [
+      "Pays-Bas",
+      "Danemark",
+      "Belgique",
+      "Suisse"
+    ],
+    "Bonne_Reponse": "Pays-Bas",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel pays abrite les pyramides de Gizeh ?",
+    "Reponses": [
+      "Égypte",
+      "Soudan",
+      "Libye",
+      "Arabie Saoudite"
+    ],
+    "Bonne_Reponse": "Égypte",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quelle ville est surnommée « la Grosse Pomme » ?",
+    "Reponses": [
+      "New York",
+      "Los Angeles",
+      "Chicago",
+      "Miami"
+    ],
+    "Bonne_Reponse": "New York",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel pays possède le plus de fuseaux horaires ?",
+    "Reponses": [
+      "France",
+      "États-Unis",
+      "Russie",
+      "Canada"
+    ],
+    "Bonne_Reponse": "France",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel est le plus haut sommet d’Afrique ?",
+    "Reponses": [
+      "Kilimandjaro",
+      "Mont Kenya",
+      "Ras Dashen",
+      "Simien"
+    ],
+    "Bonne_Reponse": "Kilimandjaro",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel fleuve passe à travers le plus grand nombre de pays ?",
+    "Reponses": [
+      "Danube",
+      "Rhin",
+      "Mékong",
+      "Nil"
+    ],
+    "Bonne_Reponse": "Danube",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel pays possède la plus grande barrière de corail ?",
+    "Reponses": [
+      "Australie",
+      "Philippines",
+      "Indonésie",
+      "Malaisie"
+    ],
+    "Bonne_Reponse": "Australie",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel lac est le plus profond du monde ?",
+    "Reponses": [
+      "Baïkal",
+      "Tanganyika",
+      "Supérieur",
+      "Vostok"
+    ],
+    "Bonne_Reponse": "Baïkal",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel pays a pour capitale Nairobi ?",
+    "Reponses": [
+      "Kenya",
+      "Éthiopie",
+      "Tanzanie",
+      "Ouganda"
+    ],
+    "Bonne_Reponse": "Kenya",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quel est le pays le plus montagneux du monde ?",
+    "Reponses": [
+      "Bhoutan",
+      "Népal",
+      "Suisse",
+      "Pérou"
+    ],
+    "Bonne_Reponse": "Bhoutan",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel pays est le plus petit au monde ?",
+    "Reponses": [
+      "Vatican",
+      "Monaco",
+      "Nauru",
+      "Saint-Marin"
+    ],
+    "Bonne_Reponse": "Vatican",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quelle mer borde l’Arabie Saoudite à l’ouest ?",
+    "Reponses": [
+      "Mer Rouge",
+      "Golfe Persique",
+      "Mer Méditerranée",
+      "Océan Indien"
+    ],
+    "Bonne_Reponse": "Mer Rouge",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel pays d’Amérique du Sud est le seul à ne pas avoir d’armée ?",
+    "Reponses": [
+      "Costa Rica",
+      "Panama",
+      "Uruguay",
+      "Équateur"
+    ],
+    "Bonne_Reponse": "Costa Rica",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel est le plus grand archipel du monde ?",
+    "Reponses": [
+      "Indonésie",
+      "Philippines",
+      "Maldives",
+      "Japon"
+    ],
+    "Bonne_Reponse": "Indonésie",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel pays possède le plus grand nombre de volcans actifs ?",
+    "Reponses": [
+      "Indonésie",
+      "Japon",
+      "États-Unis",
+      "Islande"
+    ],
+    "Bonne_Reponse": "Indonésie",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quelle capitale est située à la plus haute altitude ?",
+    "Reponses": [
+      "La Paz",
+      "Quito",
+      "Katmandou",
+      "Bogota"
+    ],
+    "Bonne_Reponse": "La Paz",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel désert reçoit le moins de précipitations annuelles ?",
+    "Reponses": [
+      "Atacama",
+      "Sahara",
+      "Gobi",
+      "Antarctique"
+    ],
+    "Bonne_Reponse": "Atacama",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel pays possède la frontière terrestre la plus longue du monde ?",
+    "Reponses": [
+      "États-Unis / Canada",
+      "Russie / Kazakhstan",
+      "Chine / Mongolie",
+      "Inde / Bangladesh"
+    ],
+    "Bonne_Reponse": "États-Unis / Canada",
+    "Difficulte": "Difficile"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Combien y a-t-il de planètes dans le système solaire ?",
+    "Reponses": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "Bonne_Reponse": "8",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel est l’astre le plus proche de la Terre ?",
+    "Reponses": [
+      "Lune",
+      "Mars",
+      "Soleil",
+      "Vénus"
+    ],
+    "Bonne_Reponse": "Lune",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel est l’organe principal du système circulatoire ?",
+    "Reponses": [
+      "Cœur",
+      "Foie",
+      "Poumon",
+      "Estomac"
+    ],
+    "Bonne_Reponse": "Cœur",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "De quoi est principalement composée l’eau ?",
+    "Reponses": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ],
+    "Bonne_Reponse": "H2O",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel gaz respirons-nous principalement ?",
+    "Reponses": [
+      "Azote",
+      "Oxygène",
+      "Hydrogène",
+      "Dioxyde de carbone"
+    ],
+    "Bonne_Reponse": "Azote",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel est l’état de la matière d’un glaçon ?",
+    "Reponses": [
+      "Solide",
+      "Liquide",
+      "Gazeux",
+      "Plasma"
+    ],
+    "Bonne_Reponse": "Solide",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel est l’astre au centre du système solaire ?",
+    "Reponses": [
+      "Soleil",
+      "Terre",
+      "Jupiter",
+      "Saturne"
+    ],
+    "Bonne_Reponse": "Soleil",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel animal est un mammifère ?",
+    "Reponses": [
+      "Dauphin",
+      "Truite",
+      "Pigeon",
+      "Serpent"
+    ],
+    "Bonne_Reponse": "Dauphin",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel organe permet de respirer ?",
+    "Reponses": [
+      "Poumons",
+      "Reins",
+      "Cerveau",
+      "Estomac"
+    ],
+    "Bonne_Reponse": "Poumons",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel est l’élément chimique symbole O ?",
+    "Reponses": [
+      "Oxygène",
+      "Or",
+      "Osmium",
+      "Hydrogène"
+    ],
+    "Bonne_Reponse": "Oxygène",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quelle force nous maintient au sol ?",
+    "Reponses": [
+      "Gravité",
+      "Magnétisme",
+      "Frottement",
+      "Pression"
+    ],
+    "Bonne_Reponse": "Gravité",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel scientifique a formulé la théorie de la relativité ?",
+    "Reponses": [
+      "Einstein",
+      "Newton",
+      "Galilée",
+      "Curie"
+    ],
+    "Bonne_Reponse": "Einstein",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quels sont les trois états de la matière ?",
+    "Reponses": [
+      "Solide, liquide, gaz",
+      "Liquide, plasma, métal",
+      "Gaz, vapeur, plasma",
+      "Solide, plastique, gel"
+    ],
+    "Bonne_Reponse": "Solide, liquide, gaz",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel organe filtre le sang ?",
+    "Reponses": [
+      "Reins",
+      "Cœur",
+      "Intestin",
+      "Estomac"
+    ],
+    "Bonne_Reponse": "Reins",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel est le plus grand organe du corps humain ?",
+    "Reponses": [
+      "Peau",
+      "Poumons",
+      "Foie",
+      "Cerveau"
+    ],
+    "Bonne_Reponse": "Peau",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel est le principal gaz à effet de serre émis par l’homme ?",
+    "Reponses": [
+      "CO2",
+      "O2",
+      "H2",
+      "N2"
+    ],
+    "Bonne_Reponse": "CO2",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quelle planète est surnommée la planète rouge ?",
+    "Reponses": [
+      "Mars",
+      "Venus",
+      "Mercure",
+      "Jupiter"
+    ],
+    "Bonne_Reponse": "Mars",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel est le scientifique associé à la découverte de la radioactivité ?",
+    "Reponses": [
+      "Marie Curie",
+      "Tesla",
+      "Newton",
+      "Galilée"
+    ],
+    "Bonne_Reponse": "Marie Curie",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quelle particule possède une charge négative ?",
+    "Reponses": [
+      "Électron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "Bonne_Reponse": "Électron",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quelle est la vitesse de la lumière dans le vide ?",
+    "Reponses": [
+      "300 000 km/s",
+      "100 000 km/s",
+      "1 000 000 km/s",
+      "3 000 000 km/s"
+    ],
+    "Bonne_Reponse": "300 000 km/s",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel est le nom de la première molécule d’ARN synthétique ?",
+    "Reponses": [
+      "ARN poly-U",
+      "ARN poly-A",
+      "ARN poly-C",
+      "ARN hybrid"
+    ],
+    "Bonne_Reponse": "ARN poly-U",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel physicien a établi l’équation de Schrödinger ?",
+    "Reponses": [
+      "Erwin Schrödinger",
+      "Albert Schrödinger",
+      "Paul Schrödinger",
+      "Bohr Schrödinger"
+    ],
+    "Bonne_Reponse": "Erwin Schrödinger",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel est le nom du processus cellulaire formant l’ATP ?",
+    "Reponses": [
+      "Phosphorylation oxydative",
+      "Glycolyse",
+      "Mitose",
+      "Transcription"
+    ],
+    "Bonne_Reponse": "Phosphorylation oxydative",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Comment s’appelle l’hypothèse de l’expansion de l’univers ?",
+    "Reponses": [
+      "Big Bang",
+      "Big Freeze",
+      "Inflation statique",
+      "Effondrement final"
+    ],
+    "Bonne_Reponse": "Big Bang",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel est le nom de la constante liant charge et énergie dans l’électromagnétisme ?",
+    "Reponses": [
+      "Constante de Coulomb",
+      "Constante de Planck",
+      "Constante de Boltzmann",
+      "Constante d’Avogadro"
+    ],
+    "Bonne_Reponse": "Constante de Coulomb",
+    "Difficulte": "Difficile"
+  }
+]

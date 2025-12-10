@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Qui est le réalisateur de Titanic ?",
+    "Reponses": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "Peter Jackson"
+    ],
+    "Bonne_Reponse": "James Cameron",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel super-héros est aussi connu sous le nom de Bruce Wayne ?",
+    "Reponses": [
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Flash"
+    ],
+    "Bonne_Reponse": "Batman",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel film met en scène un robot nommé WALL‑E ?",
+    "Reponses": [
+      "WALL‑E",
+      "Robots",
+      "Astro Boy",
+      "I, Robot"
+    ],
+    "Bonne_Reponse": "WALL‑E",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Dans quel film trouve-t-on le personnage Jack Sparrow ?",
+    "Reponses": [
+      "Pirates des Caraïbes",
+      "Hook",
+      "Le Corsaire Rouge",
+      "Peter Pan"
+    ],
+    "Bonne_Reponse": "Pirates des Caraïbes",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel studio a créé Toy Story ?",
+    "Reponses": [
+      "Pixar",
+      "DreamWorks",
+      "DisneyToon",
+      "Illumination"
+    ],
+    "Bonne_Reponse": "Pixar",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Dans Star Wars, comment s’appelle le père de Luke ?",
+    "Reponses": [
+      "Dark Vador",
+      "Obi‑Wan",
+      "Palpatine",
+      "Yoda"
+    ],
+    "Bonne_Reponse": "Dark Vador",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel acteur incarne Iron Man dans le MCU ?",
+    "Reponses": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "Bonne_Reponse": "Robert Downey Jr.",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Dans quel film trouve-t-on le personnage Simba ?",
+    "Reponses": [
+      "Le Roi Lion",
+      "Madagascar",
+      "Le Livre de la Jungle",
+      "Tarzan"
+    ],
+    "Bonne_Reponse": "Le Roi Lion",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel film raconte l’histoire du naufrage du RMS Titanic ?",
+    "Reponses": [
+      "Titanic",
+      "Le Naufrage",
+      "Deep Blue",
+      "Iceberg"
+    ],
+    "Bonne_Reponse": "Titanic",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Dans Matrix, quelle pilule Neo choisit-il ?",
+    "Reponses": [
+      "La rouge",
+      "La bleue",
+      "La jaune",
+      "La noire"
+    ],
+    "Bonne_Reponse": "La rouge",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel film a remporté l’Oscar du meilleur film en 1994 ?",
+    "Reponses": [
+      "Forrest Gump",
+      "Pulp Fiction",
+      "Le Roi Lion",
+      "Titanic"
+    ],
+    "Bonne_Reponse": "Forrest Gump",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Qui a composé la musique du Seigneur des Anneaux ?",
+    "Reponses": [
+      "Howard Shore",
+      "Hans Zimmer",
+      "John Williams",
+      "James Newton Howard"
+    ],
+    "Bonne_Reponse": "Howard Shore",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel réalisateur est à l’origine du film Inception ?",
+    "Reponses": [
+      "Christopher Nolan",
+      "David Fincher",
+      "Denis Villeneuve",
+      "James Cameron"
+    ],
+    "Bonne_Reponse": "Christopher Nolan",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel film d’animation contient la chanson « Libérée, délivrée » ?",
+    "Reponses": [
+      "La Reine des Neiges",
+      "Raiponce",
+      "Vaiana",
+      "Cendrillon"
+    ],
+    "Bonne_Reponse": "La Reine des Neiges",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel film met en scène un tueur nommé Hannibal Lecter ?",
+    "Reponses": [
+      "Le Silence des Agneaux",
+      "Seven",
+      "Psychose",
+      "Shining"
+    ],
+    "Bonne_Reponse": "Le Silence des Agneaux",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Dans quel pays se déroule principalement Le Dernier Samouraï ?",
+    "Reponses": [
+      "Japon",
+      "Chine",
+      "Corée",
+      "Irland"
+    ],
+    "Bonne_Reponse": "Japon",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quel film de Christopher Nolan met en scène la bombe atomique ?",
+    "Reponses": [
+      "Oppenheimer",
+      "Dunkerque",
+      "Tenet",
+      "Interstellar"
+    ],
+    "Bonne_Reponse": "Oppenheimer",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel film de science-fiction met en scène un xénomorphe ?",
+    "Reponses": [
+      "Alien",
+      "Predator",
+      "Blade Runner",
+      "Terminator"
+    ],
+    "Bonne_Reponse": "Alien",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Qui joue le rôle du Joker dans The Dark Knight ?",
+    "Reponses": [
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jared Leto",
+      "Jack Nicholson"
+    ],
+    "Bonne_Reponse": "Heath Ledger",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel film a popularisé la phrase « Je suis ton père » ?",
+    "Reponses": [
+      "Star Wars V",
+      "Star Wars IV",
+      "Star Wars VI",
+      "Star Wars III"
+    ],
+    "Bonne_Reponse": "Star Wars V",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Dans le film Blade Runner, comment appelle-t-on les humains artificiels ?",
+    "Reponses": [
+      "Réplicants",
+      "Synthétiques",
+      "Doubles",
+      "Copies"
+    ],
+    "Bonne_Reponse": "Réplicants",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel réalisateur japonais est à l’origine de Rêves, Ran et Kagemusha ?",
+    "Reponses": [
+      "Akira Kurosawa",
+      "Hayao Miyazaki",
+      "Takeshi Kitano",
+      "Yasujiro Ozu"
+    ],
+    "Bonne_Reponse": "Akira Kurosawa",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel film expressionniste allemand met en scène le personnage Cesare, somnambule ?",
+    "Reponses": [
+      "Le Cabinet du docteur Caligari",
+      "Le Marcheur de Rêves",
+      "Metropolis",
+      "M"
+    ],
+    "Bonne_Reponse": "Le Cabinet du docteur Caligari",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel film soviétique de 1925 raconte la mutinerie d’un équipage en mer Noire ?",
+    "Reponses": [
+      "Le Cuirassé Potemkine",
+      "Octobre",
+      "La Grève",
+      "Ivan le Terrible"
+    ],
+    "Bonne_Reponse": "Le Cuirassé Potemkine",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel long métrage remporta la Palme d’Or en 1994 ?",
+    "Reponses": [
+      "Pulp Fiction",
+      "Underground",
+      "La Leçon de piano",
+      "Barton Fink"
+    ],
+    "Bonne_Reponse": "Pulp Fiction",
+    "Difficulte": "Difficile"
+  }
+]

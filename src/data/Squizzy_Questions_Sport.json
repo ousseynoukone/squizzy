@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Dans quel sport utilise-t-on un ballon rond ?",
+    "Reponses": [
+      "Football",
+      "Rugby",
+      "Hockey",
+      "Baseball"
+    ],
+    "Bonne_Reponse": "Football",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel sport se joue principalement sur un court en terre battue ?",
+    "Reponses": [
+      "Tennis",
+      "Handball",
+      "Volley",
+      "Badminton"
+    ],
+    "Bonne_Reponse": "Tennis",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel institution organise la Coupe du Monde de football ?",
+    "Reponses": [
+      "FIFA",
+      "UEFA",
+      "NBA",
+      "IOC"
+    ],
+    "Bonne_Reponse": "FIFA",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Combien de joueurs une équipe de basket compte-t-elle sur le terrain ?",
+    "Reponses": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "Bonne_Reponse": "5",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Dans quel sport peut-on marquer un but ?",
+    "Reponses": [
+      "Football",
+      "Athlétisme",
+      "Natation",
+      "Boxe"
+    ],
+    "Bonne_Reponse": "Football",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel animal représente le sport hippique ?",
+    "Reponses": [
+      "Cheval",
+      "Chien",
+      "Taureau",
+      "Aigle"
+    ],
+    "Bonne_Reponse": "Cheval",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel sport utilise une raquette et un volant ?",
+    "Reponses": [
+      "Badminton",
+      "Tennis",
+      "Squash",
+      "Tennis de table"
+    ],
+    "Bonne_Reponse": "Badminton",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel sport oppose deux équipes de 11 joueurs ?",
+    "Reponses": [
+      "Football",
+      "Rugby",
+      "Baseball",
+      "Cricket"
+    ],
+    "Bonne_Reponse": "Football",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel sport se pratique dans un ring ?",
+    "Reponses": [
+      "Boxe",
+      "Judo",
+      "Escrime",
+      "Rugby"
+    ],
+    "Bonne_Reponse": "Boxe",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel sport se joue avec une balle orange ?",
+    "Reponses": [
+      "Basketball",
+      "Handball",
+      "Tennis",
+      "Water-polo"
+    ],
+    "Bonne_Reponse": "Basketball",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel joueur de tennis a remporté le plus de tournois du Grand Chelem ?",
+    "Reponses": [
+      "Novak Djokovic",
+      "Roger Federer",
+      "Rafael Nadal",
+      "Pete Sampras"
+    ],
+    "Bonne_Reponse": "Novak Djokovic",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quelle nation détient le plus de titres en Coupe du Monde de football ?",
+    "Reponses": [
+      "Brésil",
+      "Allemagne",
+      "Argentine",
+      "France"
+    ],
+    "Bonne_Reponse": "Brésil",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Combien de points vaut un tir à trois points au basket ?",
+    "Reponses": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "Bonne_Reponse": "3",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Quel pays organisait les Jeux Olympiques antiques ?",
+    "Reponses": [
+      "Grèce",
+      "Italie",
+      "Egypte",
+      "Mésopotamie"
+    ],
+    "Bonne_Reponse": "Grèce",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel sport est associé à Usain Bolt ?",
+    "Reponses": [
+      "Athlétisme",
+      "Football",
+      "Rugby",
+      "Cyclisme"
+    ],
+    "Bonne_Reponse": "Athlétisme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "En natation, quel est le style le plus rapide ?",
+    "Reponses": [
+      "Crawl",
+      "Brasse",
+      "Papillon",
+      "Dos"
+    ],
+    "Bonne_Reponse": "Crawl",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quel club a gagné le plus de Ligues des Champions ?",
+    "Reponses": [
+      "Real Madrid",
+      "FC Barcelone",
+      "Liverpool",
+      "Bayern Munich"
+    ],
+    "Bonne_Reponse": "Real Madrid",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel est le principal tournoi de rugby à XV en Europe ?",
+    "Reponses": [
+      "Tournoi des Six Nations",
+      "Top 14",
+      "Premiership",
+      "Champions Cup"
+    ],
+    "Bonne_Reponse": "Tournoi des Six Nations",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Combien de rounds un combat de boxe professionnelle peut-il compter au maximum ?",
+    "Reponses": [
+      "12",
+      "10",
+      "15",
+      "8"
+    ],
+    "Bonne_Reponse": "12",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel est le sport principal des Jeux Olympiques antiques ?",
+    "Reponses": [
+      "Athlétisme",
+      "Lutte",
+      "Course de chars",
+      "Pentathlon"
+    ],
+    "Bonne_Reponse": "Athlétisme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel joueur de football a remporté le premier Ballon d’Or de l’histoire ?",
+    "Reponses": [
+      "Stanley Matthews",
+      "Alfredo Di Stéfano",
+      "Raymond Kopa",
+      "Ferenc Puskás"
+    ],
+    "Bonne_Reponse": "Stanley Matthews",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel pays a inventé le judo ?",
+    "Reponses": [
+      "Japon",
+      "Corée du Sud",
+      "Chine",
+      "Thaïlande"
+    ],
+    "Bonne_Reponse": "Japon",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Qui détient le record de buts en Coupe du Monde (toutes éditions confondues) ?",
+    "Reponses": [
+      "Miroslav Klose",
+      "Pelé",
+      "Ronaldo",
+      "Gerd Müller"
+    ],
+    "Bonne_Reponse": "Miroslav Klose",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel sport utilise la technique du « Fosbury Flop » ?",
+    "Reponses": [
+      "Saut en hauteur",
+      "Lancer de disque",
+      "Saut à la perche",
+      "Triple saut"
+    ],
+    "Bonne_Reponse": "Saut en hauteur",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel cycliste a remporté le plus grand nombre de Tours de France ?",
+    "Reponses": [
+      "Jacques Anquetil",
+      "Bernard Hinault",
+      "Miguel Indurain",
+      "Eddy Merckx"
+    ],
+    "Bonne_Reponse": "Eddy Merckx",
+    "Difficulte": "Difficile"
+  }
+]

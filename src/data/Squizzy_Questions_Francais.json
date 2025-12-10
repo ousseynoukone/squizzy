@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Quel est le synonyme de « heureux » ?",
+    "Reponses": [
+      "Content",
+      "Triste",
+      "Fâché",
+      "Fatigué"
+    ],
+    "Bonne_Reponse": "Content",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel est l’infinitif du verbe « je parle » ?",
+    "Reponses": [
+      "Parler",
+      "Parle",
+      "Parlé",
+      "Parlant"
+    ],
+    "Bonne_Reponse": "Parler",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Quel est le contraire de « lent » ?",
+    "Reponses": [
+      "Rapide",
+      "Petit",
+      "Bruyant",
+      "Fort"
+    ],
+    "Bonne_Reponse": "Rapide",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quel mot est un nom commun ?",
+    "Reponses": [
+      "Chaise",
+      "Rouge",
+      "Courir",
+      "Je"
+    ],
+    "Bonne_Reponse": "Chaise",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel mot est un adjectif ?",
+    "Reponses": [
+      "Beau",
+      "Manger",
+      "Maison",
+      "Chanter"
+    ],
+    "Bonne_Reponse": "Beau",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel est le féminin de « acteur » ?",
+    "Reponses": [
+      "Actrice",
+      "Acteuse",
+      "Acteure",
+      "Actrisse"
+    ],
+    "Bonne_Reponse": "Actrice",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel temps utilise l’auxiliaire « avoir » au passé composé ?",
+    "Reponses": [
+      "Passé composé",
+      "Présent",
+      "Futur",
+      "Imparfait"
+    ],
+    "Bonne_Reponse": "Passé composé",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Quel mot contient un accent circonflexe ?",
+    "Reponses": [
+      "Hôtel",
+      "Léger",
+      "Caïd",
+      "Elève"
+    ],
+    "Bonne_Reponse": "Hôtel",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Dans « les enfants jouent », quel est le verbe ?",
+    "Reponses": [
+      "jouent",
+      "enfants",
+      "les",
+      "verbe"
+    ],
+    "Bonne_Reponse": "jouent",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel est le pluriel de « cheval » ?",
+    "Reponses": [
+      "Chevaux",
+      "Chevals",
+      "Chevales",
+      "Chevalx"
+    ],
+    "Bonne_Reponse": "Chevaux",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel est le complément d’objet direct dans « Il mange une pomme » ?",
+    "Reponses": [
+      "une pomme",
+      "Il",
+      "mange",
+      "pomme"
+    ],
+    "Bonne_Reponse": "une pomme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quelle phrase est au conditionnel présent ?",
+    "Reponses": [
+      "Je viendrais demain",
+      "Je suis là",
+      "Je viens demain",
+      "Je viendrai demain"
+    ],
+    "Bonne_Reponse": "Je viendrais demain",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel est le participe passé du verbe « prendre » ?",
+    "Reponses": [
+      "Pris",
+      "Prendu",
+      "Prenné",
+      "Prus"
+    ],
+    "Bonne_Reponse": "Pris",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Lequel de ces mots est un adverbe ?",
+    "Reponses": [
+      "Rapidement",
+      "Rapide",
+      "Rapides",
+      "Rapid"
+    ],
+    "Bonne_Reponse": "Rapidement",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel type de phrase exprime un ordre ?",
+    "Reponses": [
+      "Injonctive",
+      "Déclarative",
+      "Exclamative",
+      "Interrogative"
+    ],
+    "Bonne_Reponse": "Injonctive",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel est le nom de la figure qui exagère volontairement ?",
+    "Reponses": [
+      "Hyperbole",
+      "Métaphore",
+      "Antithèse",
+      "Litote"
+    ],
+    "Bonne_Reponse": "Hyperbole",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Dans un récit, qui est le narrateur ?",
+    "Reponses": [
+      "Celui qui raconte l’histoire",
+      "Le personnage principal",
+      "L’auteur",
+      "Le lecteur"
+    ],
+    "Bonne_Reponse": "Celui qui raconte l’histoire",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel est le mode du verbe dans « qu’il vienne » ?",
+    "Reponses": [
+      "Subjonctif",
+      "Indicatif",
+      "Conditionnel",
+      "Impératif"
+    ],
+    "Bonne_Reponse": "Subjonctif",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quel mot est un antonyme de « courageux » ?",
+    "Reponses": [
+      "Lâche",
+      "Brave",
+      "Fier",
+      "Dur"
+    ],
+    "Bonne_Reponse": "Lâche",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Comment appelle-t-on un mot de sens proche ?",
+    "Reponses": [
+      "Synonyme",
+      "Antonyme",
+      "Paronyme",
+      "Homonyme"
+    ],
+    "Bonne_Reponse": "Synonyme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel est le nom de la figure consistant à adoucir une expression ?",
+    "Reponses": [
+      "Euphémisme",
+      "Oxymore",
+      "Métonymie",
+      "Chiasme"
+    ],
+    "Bonne_Reponse": "Euphémisme",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel est le style d’écriture utilisé dans les Fables de La Fontaine ?",
+    "Reponses": [
+      "Vers",
+      "Prose",
+      "Dialogue",
+      "Pamphlet"
+    ],
+    "Bonne_Reponse": "Vers",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel temps est utilisé pour exprimer une action antérieure à une autre dans le passé ?",
+    "Reponses": [
+      "Plus-que-parfait",
+      "Imparfait",
+      "Passé simple",
+      "Conditionnel passé"
+    ],
+    "Bonne_Reponse": "Plus-que-parfait",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel mouvement littéraire met en avant la subjectivité et les émotions ?",
+    "Reponses": [
+      "Romantisme",
+      "Classicisme",
+      "Réalism",
+      "Naturalisme"
+    ],
+    "Bonne_Reponse": "Romantisme",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel auteur a écrit « Le Rouge et le Noir » ?",
+    "Reponses": [
+      "Stendhal",
+      "Balzac",
+      "Flaubert",
+      "Zola"
+    ],
+    "Bonne_Reponse": "Stendhal",
+    "Difficulte": "Difficile"
+  }
+]

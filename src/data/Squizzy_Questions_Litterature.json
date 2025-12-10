@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "Intitule": "Qui a écrit « Les Misérables » ?",
+    "Reponses": [
+      "Victor Hugo",
+      "Balzac",
+      "Zola",
+      "Flaubert"
+    ],
+    "Bonne_Reponse": "Victor Hugo",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 2,
+    "Intitule": "Quel est le genre du livre « Harry Potter » ?",
+    "Reponses": [
+      "Fantasy",
+      "Policier",
+      "Romance",
+      "Historique"
+    ],
+    "Bonne_Reponse": "Fantasy",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 3,
+    "Intitule": "Qui est l’auteur de « Le Petit Prince » ?",
+    "Reponses": [
+      "Saint-Exupéry",
+      "Jules Verne",
+      "Camus",
+      "Hugo"
+    ],
+    "Bonne_Reponse": "Saint-Exupéry",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 4,
+    "Intitule": "Quel écrivain a créé Sherlock Holmes ?",
+    "Reponses": [
+      "Conan Doyle",
+      "Agatha Christie",
+      "Poe",
+      "Kafka"
+    ],
+    "Bonne_Reponse": "Conan Doyle",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 5,
+    "Intitule": "Quel genre raconte une histoire inventée ?",
+    "Reponses": [
+      "Fiction",
+      "Biographie",
+      "Essai",
+      "Documentaire"
+    ],
+    "Bonne_Reponse": "Fiction",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 6,
+    "Intitule": "Quel écrivain a écrit « Germinal » ?",
+    "Reponses": [
+      "Émile Zola",
+      "Victor Hugo",
+      "Maupassant",
+      "Albert Camus"
+    ],
+    "Bonne_Reponse": "Émile Zola",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 7,
+    "Intitule": "Quel livre met en scène un capitaine nommé Nemo ?",
+    "Reponses": [
+      "Vingt mille lieues sous les mers",
+      "Moby Dick",
+      "L'île mystérieuse",
+      "Robinson Crusoe"
+    ],
+    "Bonne_Reponse": "Vingt mille lieues sous les mers",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 8,
+    "Intitule": "Qui a écrit « Le Rouge et le Noir » ?",
+    "Reponses": [
+      "Stendhal",
+      "Zola",
+      "Flaubert",
+      "Hugo"
+    ],
+    "Bonne_Reponse": "Stendhal",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 9,
+    "Intitule": "Quel auteur est associé au poème « L’Albatros » ?",
+    "Reponses": [
+      "Baudelaire",
+      "Rimbaud",
+      "Verlaine",
+      "Hugo"
+    ],
+    "Bonne_Reponse": "Baudelaire",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 10,
+    "Intitule": "Quel roman raconte l’histoire d’un certain Gatsby ?",
+    "Reponses": [
+      "Gatsby le Magnifique",
+      "Orgueil et Préjugés",
+      "Orgueil et Préjudices",
+      "Le Magnifique Gatsby"
+    ],
+    "Bonne_Reponse": "Gatsby le Magnifique",
+    "Difficulte": "Facile"
+  },
+  {
+    "id": 11,
+    "Intitule": "Quel est le mouvement littéraire de Baudelaire ?",
+    "Reponses": [
+      "Symbolisme",
+      "Romantisme",
+      "Classicisme",
+      "Naturalisme"
+    ],
+    "Bonne_Reponse": "Symbolisme",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 12,
+    "Intitule": "Quel roman est une dystopie de George Orwell ?",
+    "Reponses": [
+      "1984",
+      "La Ferme des Animaux",
+      "Fahrenheit 451",
+      "Le Meilleur des Mondes"
+    ],
+    "Bonne_Reponse": "1984",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 13,
+    "Intitule": "Quel est le principal protagoniste masculin des Misérables ?",
+    "Reponses": [
+      "Jean Valjean",
+      "Javert",
+      "Gavroche",
+      "Marius"
+    ],
+    "Bonne_Reponse": "Jean Valjean",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 14,
+    "Intitule": "Dans quel livre apparaît le personnage d’Athos ?",
+    "Reponses": [
+      "Les Trois Mousquetaires",
+      "Le Comte de Monte-Cristo",
+      "Notre-Dame de Paris",
+      "Le Rouge et le Noir"
+    ],
+    "Bonne_Reponse": "Les Trois Mousquetaires",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 15,
+    "Intitule": "Quel auteur est connu pour son œuvre existentialiste ?",
+    "Reponses": [
+      "Sartre",
+      "Camus",
+      "Hugo",
+      "Zola"
+    ],
+    "Bonne_Reponse": "Sartre",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 16,
+    "Intitule": "Quel roman de Flaubert met en scène Emma ?",
+    "Reponses": [
+      "Madame Bovary",
+      "L'Éducation sentimentale",
+      "Salammbô",
+      "Un Cœur simple"
+    ],
+    "Bonne_Reponse": "Madame Bovary",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 17,
+    "Intitule": "Quelle œuvre commence par « Aujourd’hui, maman est morte » ?",
+    "Reponses": [
+      "L'Étranger",
+      "La Peste",
+      "Le Mythe de Sisyphe",
+      "Les Justes"
+    ],
+    "Bonne_Reponse": "L'Étranger",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 18,
+    "Intitule": "Quel auteur a écrit « Le Nom de la Rose » ?",
+    "Reponses": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Borges",
+      "Orwell"
+    ],
+    "Bonne_Reponse": "Umberto Eco",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 19,
+    "Intitule": "Quelle est la nationalité de l'auteur Jorge Luis Borges ?",
+    "Reponses": [
+      "Argentin",
+      "Espagnol",
+      "Chilien",
+      "Portugais"
+    ],
+    "Bonne_Reponse": "Argentin",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 20,
+    "Intitule": "Quel écrivain est associé au mouvement naturaliste ?",
+    "Reponses": [
+      "Zola",
+      "Hugo",
+      "Rimbaud",
+      "Flaubert"
+    ],
+    "Bonne_Reponse": "Zola",
+    "Difficulte": "Moyen"
+  },
+  {
+    "id": 21,
+    "Intitule": "Quel écrivain a introduit le terme « surréalisme » ?",
+    "Reponses": [
+      "Guillaume Apollinaire",
+      "Breton",
+      "Eluard",
+      "Tzara"
+    ],
+    "Bonne_Reponse": "Guillaume Apollinaire",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 22,
+    "Intitule": "Quel poème de Baudelaire ouvre Les Fleurs du mal ?",
+    "Reponses": [
+      "Bénédiction",
+      "Au Lecteur",
+      "L'Albatros",
+      "Spleen"
+    ],
+    "Bonne_Reponse": "Au Lecteur",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 23,
+    "Intitule": "Quel auteur a écrit « À la recherche du temps perdu » ?",
+    "Reponses": [
+      "Proust",
+      "Maupassant",
+      "Balzac",
+      "Rimbaud"
+    ],
+    "Bonne_Reponse": "Proust",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 24,
+    "Intitule": "Quel roman de Kafka raconte la métamorphose d’un homme en insecte ?",
+    "Reponses": [
+      "La Métamorphose",
+      "L'Envole'",
+      "L'Insect'",
+      "La Crysalide"
+    ],
+    "Bonne_Reponse": "La Métamorphose",
+    "Difficulte": "Difficile"
+  },
+  {
+    "id": 25,
+    "Intitule": "Quel écrivain est l’auteur de « Cent ans de solitude » ?",
+    "Reponses": [
+      "Gabriel García Márquez",
+      "Vargas Llosa",
+      "Paz",
+      "Neruda"
+    ],
+    "Bonne_Reponse": "Gabriel García Márquez",
+    "Difficulte": "Difficile"
+  }
+]
