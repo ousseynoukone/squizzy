@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { getUsername, getUserAvatar } from "../../../utils/utils.js"
 import { getQuizHistory, deleteQuizHistory, clearAllQuizHistory } from "../../../utils/storage.js"
 import { themes } from "../../../data/services/themes.js"
+import Avatar from "../../UI/avatar.jsx"
 
 export default function Profile({ onBack, onRetake }) {
   const username = getUsername() || "AlexA"
@@ -50,10 +51,10 @@ export default function Profile({ onBack, onRetake }) {
           <h1 className="text-4xl font-bold text-slate-900">Profil</h1>
           <p className="text-lg text-slate-700">{username}</p>
           <div className="mt-2">
-            <img
+            <Avatar
               src={avatar}
-              alt="Profile"
-              className="h-32 w-32 rounded-full object-cover"
+              alt={`${username}'s profile`}
+              size="lg"
             />
           </div>
         </section>

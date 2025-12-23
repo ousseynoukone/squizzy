@@ -1,4 +1,4 @@
-import FormConnection from "./forum.jsx"
+import FormConnection from "./connection-form.jsx"
 
 export default function Connexion() {
   return (

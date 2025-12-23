@@ -1,46 +1,60 @@
 // Pool de questions organisées par thème et difficulté de question
-// Distribution pour chaque difficulté de quiz:
-// - Facile: 5 Facile, 3 Moyen, 2 Difficile
-// - Normal: 3 Facile, 5 Moyen, 2 Difficile
-// - Difficile: 2 Facile, 3 Moyen, 5 Difficile
+// Utilise les fichiers JSON Squizzy_Questions_*.json et la fonction CreateQuizz
 
-import questions  from '../questions.json'
+import CreateQuizz from '../../utils/functions/CreateQuizz.js'
+import { themes } from './themes.js'
 
-// Fonction pour obtenir les questions d'un thème
+// Mapping entre les titres de thèmes dans themes.js et les noms utilisés dans CreateQuizz
+const titleToNameMap = {
+  "Capitales du Monde": "GEOGRAPHIE",
+  "Histoire de France": "HISTOIRE",
+  "Science Pop": "SCIENCE",
+  "Culture Ciné": "CINEMA",
+  "Programmation JS": "MATHEMATIQUE", // Note: Utilise MATHEMATIQUE pour Programmation JS
+  "Jeu Vidéo": "JEUXVIDEO",
+  "Anglais Général": "ANGLAIS",
+  // Ajouter d'autres mappings si de nouveaux thèmes sont ajoutés
+}
+
+// Fonction pour obtenir le nom du thème depuis l'ID
+function getThemeNameFromId(themeId) {
+  // Chercher dans themes.js pour trouver le thème
+  const theme = themes.find(t => t.id === themeId)
+  if (!theme) {
+    console.error(`Theme with ID ${themeId} not found`)
+    return null
+  }
+  
+  // Mapper le titre au nom utilisé dans CreateQuizz
+  const themeName = titleToNameMap[theme.titre]
+  
+  if (!themeName) {
+    console.error(`Theme "${theme.titre}" (ID: ${themeId}) not mapped to a JSON file`)
+    return null
+  }
+  
+  return themeName
+}
+
+// Fonction pour obtenir les questions d'un thème (non utilisée directement, mais gardée pour compatibilité)
 export function getQuestionsByThemeId(themeId) {
-  return questions.filter(q => q.themeId === themeId)
+  // Cette fonction n'est plus utilisée car on utilise directement CreateQuizz
+  // Mais on la garde pour compatibilité
+  return []
 }
 
 // Fonction pour générer une liste de questions selon la difficulté du quiz
 export function generateQuestionList(themeId, quizDifficultyIndex) {
-  const allQuestions = getQuestionsByThemeId(themeId)
+  const themeName = getThemeNameFromId(themeId)
   
-  // Séparer les questions par difficulté
-  const facileQuestions = allQuestions.filter(q => q.difficulte.titre === "Facile")
-  const moyenQuestions = allQuestions.filter(q => q.difficulte.titre === "Moyen")
-  const difficileQuestions = allQuestions.filter(q => q.difficulte.titre === "Difficile")
-  
-  // Distribution selon la difficulté du quiz
-  let distribution
-  if (quizDifficultyIndex === 0) {
-    // Facile: 5F, 3M, 2D
-    distribution = { facile: 5, moyen: 3, difficile: 2 }
-  } else if (quizDifficultyIndex === 1) {
-    // Normal: 3F, 5M, 2D
-    distribution = { facile: 3, moyen: 5, difficile: 2 }
-  } else {
-    // Difficile: 2F, 3M, 5D
-    distribution = { facile: 2, moyen: 3, difficile: 5 }
+  if (!themeName) {
+    console.error(`Theme ID ${themeId} not found or not mapped`)
+    return []
   }
   
-  // Mélanger et sélectionner les questions
-  const shuffle = (array) => array.sort(() => Math.random() - 0.5)
+  // Utiliser CreateQuizz avec le nom du thème et l'index de difficulté
+  const questions = CreateQuizz(themeName, quizDifficultyIndex, 10)
   
-  const selectedFacile = shuffle([...facileQuestions]).slice(0, distribution.facile)
-  const selectedMoyen = shuffle([...moyenQuestions]).slice(0, distribution.moyen)
-  const selectedDifficile = shuffle([...difficileQuestions]).slice(0, distribution.difficile)
-  
-  // Mélanger toutes les questions sélectionnées
-  return shuffle([...selectedFacile, ...selectedMoyen, ...selectedDifficile])
+  return questions || []
 }
 

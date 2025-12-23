@@ -1,4 +1,3 @@
-import { Question } from "../objects/Question.js";
 import Questionaire_Anglais from "../../data/Squizzy_Questions_Anglais.json";
 import Questionaire_Art from "../../data/Squizzy_Questions_Art.json";
 import Questionaire_Cinema from "../../data/Squizzy_Questions_Cinema.json";
@@ -11,8 +10,7 @@ import Questionaire_Mathematique from "../../data/Squizzy_Questions_Mathematique
 import Questionaire_Musique from "../../data/Squizzy_Questions_Musique.json";
 import Questionaire_Science from "../../data/Squizzy_Questions_Science.json";
 import Questionaire_Sport from "../../data/Squizzy_Questions_Sport.json";
-
-let questionTest;
+import { questionDistribution, questionChronos } from "../../data/services/quiz_config.js";
 
 export default function CreateQuizz(Theme, difficulte, nbQuestions) {
   let Questionaire = getThemeQuestionnaire(Theme);
@@ -21,28 +19,11 @@ export default function CreateQuizz(Theme, difficulte, nbQuestions) {
   let nbM;
   let nbD;
 
-  switch (difficulte) {
-    case 0: //Facile
-      nbF = 7;
-      nbM = 2;
-      nbD = 1;
-      break;
-    case 1: //Moyen
-      nbF = 4;
-      nbM = 4;
-      nbD = 2;
-      break;
-    case 2: //Difficile
-      nbF = 2;
-      nbM = 4;
-      nbD = 4;
-      break;
-    default: //Facile (error)
-      nbF = 7;
-      nbM = 2;
-      nbD = 1;
-      break;
-  }
+  // Use the distribution from quiz_config
+  const distribution = questionDistribution[difficulte] || questionDistribution[0];
+  nbF = distribution.facile;
+  nbM = distribution.moyen;
+  nbD = distribution.difficile;
 
   const Quizz = Array();
   let Facile = Array();
@@ -50,22 +31,33 @@ export default function CreateQuizz(Theme, difficulte, nbQuestions) {
   let Difficile = Array();
 
   Facile = getQuestionsByDifficulty(Questionaire, "Facile");
-  console.log(Facile);
   Facile = getRandomQuestions(Theme, Facile, nbF);
   Quizz.push(...Facile);
 
   Moyen = getQuestionsByDifficulty(Questionaire, "Moyen");
-  console.log(Moyen);
   Moyen = getRandomQuestions(Theme, Moyen, nbM);
   Quizz.push(...Moyen);
 
   Difficile = getQuestionsByDifficulty(Questionaire, "Difficile");
-  console.log(Difficile);
   Difficile = getRandomQuestions(Theme, Difficile, nbD);
   Quizz.push(...Difficile);
 
-  console.log(Quizz);
-  //return Quizz; //Utilise ça pour récupérer le Quizz
+  // Shuffle all questions
+  const shuffledQuizz = shuffle(Quizz);
+
+  // Transform to match expected format
+  return shuffledQuizz.map(question => ({
+    id: question.id,
+    intitule: question.intitule,
+    listeReponses: question.Reponses,
+    bonneReponse: question.BonneReponse,
+    difficulte: {
+      titre: question.Difficulte,
+      nbrPoints: getPointsForDifficulty(question.Difficulte),
+      chrono: questionChronos[question.Difficulte] || questionChronos.Facile
+    },
+    theme: Theme
+  }));
 }
 
 //---Functions---
@@ -90,25 +82,45 @@ function getQuestionsByDifficulty(data, difficulty) {
 function getRandomQuestions(Theme, listeQuestions, nbQuestions) {
   let newListeQuestions = Array();
   let counterQuestion = 0;
-  while (counterQuestion < nbQuestions) {
-    let idQ = randomInteger(0, listeQuestions.length - 1);
-    let ReponsesListe = listeQuestions[idQ]["Reponses"];
-
-    questionTest = new Question(
-      listeQuestions[idQ]["id"],
-      listeQuestions[idQ]["Intitule"],
-      shuffle(ReponsesListe),
-      listeQuestions[idQ]["Bonne_Reponse"],
-      listeQuestions[idQ]["Difficulte"],
-      Theme
-    );
-
-    if (!newListeQuestions.find((o) => o.id === questionTest.id)) {
+  let usedIds = new Set();
+  
+  // Shuffle the list first to get random selection
+  const shuffledList = shuffle([...listeQuestions]);
+  
+  while (counterQuestion < nbQuestions && shuffledList.length > 0) {
+    const question = shuffledList.shift();
+    
+    if (!usedIds.has(question.id)) {
+      // Shuffle the answers
+      const shuffledReponses = shuffle([...question.Reponses]);
+      
+      newListeQuestions.push({
+        id: question.id,
+        intitule: question.Intitule,
+        Reponses: shuffledReponses,
+        BonneReponse: question.Bonne_Reponse,
+        Difficulte: question.Difficulte,
+        Theme: Theme
+      });
+      
+      usedIds.add(question.id);
       counterQuestion++;
-      newListeQuestions.push(questionTest);
     }
   }
   return newListeQuestions;
+}
+
+function getPointsForDifficulty(difficulty) {
+  switch (difficulty) {
+    case "Facile":
+      return 10;
+    case "Moyen":
+      return 20;
+    case "Difficile":
+      return 30;
+    default:
+      return 10;
+  }
 }
 
 function getThemeQuestionnaire(Theme) {
